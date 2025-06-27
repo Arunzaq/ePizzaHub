@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ePizza.UI.props" />
+</Project>

@@ -1,0 +1,13 @@
+C:\project\ePizzaHub\epizza.Domain\bin\Debug\net8.0\ePizza.Domain.deps.json
+C:\project\ePizzaHub\epizza.Domain\bin\Debug\net8.0\ePizza.Domain.dll
+C:\project\ePizzaHub\epizza.Domain\bin\Debug\net8.0\ePizza.Domain.pdb
+C:\project\ePizzaHub\epizza.Domain\obj\Debug\net8.0\ePizza.Domain.csproj.AssemblyReference.cache
+C:\project\ePizzaHub\epizza.Domain\obj\Debug\net8.0\ePizza.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\project\ePizzaHub\epizza.Domain\obj\Debug\net8.0\ePizza.Domain.AssemblyInfoInputs.cache
+C:\project\ePizzaHub\epizza.Domain\obj\Debug\net8.0\ePizza.Domain.AssemblyInfo.cs
+C:\project\ePizzaHub\epizza.Domain\obj\Debug\net8.0\ePizza.Domain.csproj.CoreCompileInputs.cache
+C:\project\ePizzaHub\epizza.Domain\obj\Debug\net8.0\ePizza.Domain.sourcelink.json
+C:\project\ePizzaHub\epizza.Domain\obj\Debug\net8.0\ePizza.Domain.dll
+C:\project\ePizzaHub\epizza.Domain\obj\Debug\net8.0\refint\ePizza.Domain.dll
+C:\project\ePizzaHub\epizza.Domain\obj\Debug\net8.0\ePizza.Domain.pdb
+C:\project\ePizzaHub\epizza.Domain\obj\Debug\net8.0\ref\ePizza.Domain.dll

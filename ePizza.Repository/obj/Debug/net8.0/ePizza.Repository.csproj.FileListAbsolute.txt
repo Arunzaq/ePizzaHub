@@ -1,0 +1,16 @@
+C:\project\ePizzaHub\ePizza.Repository\bin\Debug\net8.0\ePizza.Repository.deps.json
+C:\project\ePizzaHub\ePizza.Repository\bin\Debug\net8.0\ePizza.Repository.dll
+C:\project\ePizzaHub\ePizza.Repository\bin\Debug\net8.0\ePizza.Repository.pdb
+C:\project\ePizzaHub\ePizza.Repository\bin\Debug\net8.0\ePizza.Domain.dll
+C:\project\ePizzaHub\ePizza.Repository\bin\Debug\net8.0\ePizza.Domain.pdb
+C:\project\ePizzaHub\ePizza.Repository\obj\Debug\net8.0\ePizza.Repository.csproj.AssemblyReference.cache
+C:\project\ePizzaHub\ePizza.Repository\obj\Debug\net8.0\ePizza.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\project\ePizzaHub\ePizza.Repository\obj\Debug\net8.0\ePizza.Repository.AssemblyInfoInputs.cache
+C:\project\ePizzaHub\ePizza.Repository\obj\Debug\net8.0\ePizza.Repository.AssemblyInfo.cs
+C:\project\ePizzaHub\ePizza.Repository\obj\Debug\net8.0\ePizza.Repository.csproj.CoreCompileInputs.cache
+C:\project\ePizzaHub\ePizza.Repository\obj\Debug\net8.0\ePizza.Repository.sourcelink.json
+C:\project\ePizzaHub\ePizza.Repository\obj\Debug\net8.0\ePizza.R.1D4B0BE5.Up2Date
+C:\project\ePizzaHub\ePizza.Repository\obj\Debug\net8.0\ePizza.Repository.dll
+C:\project\ePizzaHub\ePizza.Repository\obj\Debug\net8.0\refint\ePizza.Repository.dll
+C:\project\ePizzaHub\ePizza.Repository\obj\Debug\net8.0\ePizza.Repository.pdb
+C:\project\ePizzaHub\ePizza.Repository\obj\Debug\net8.0\ref\ePizza.Repository.dll

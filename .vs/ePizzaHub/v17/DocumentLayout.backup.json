@@ -1,0 +1,249 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\project\\ePizzaHub\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5FC476AA-857E-4F79-97C7-2CB6D7418DBC}|ePizza.Core\\ePizza.Core.csproj|c:\\project\\epizzahub\\epizza.core\\concrete\\userservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FC476AA-857E-4F79-97C7-2CB6D7418DBC}|ePizza.Core\\ePizza.Core.csproj|solutionrelative:epizza.core\\concrete\\userservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6FDF016-E7DB-4BB0-B37E-D528748F3D4A}|ePizza.Repository\\ePizza.Repository.csproj|c:\\project\\epizzahub\\epizza.repository\\concrete\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6FDF016-E7DB-4BB0-B37E-D528748F3D4A}|ePizza.Repository\\ePizza.Repository.csproj|solutionrelative:epizza.repository\\concrete\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6FDF016-E7DB-4BB0-B37E-D528748F3D4A}|ePizza.Repository\\ePizza.Repository.csproj|c:\\project\\epizzahub\\epizza.repository\\contracts\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6FDF016-E7DB-4BB0-B37E-D528748F3D4A}|ePizza.Repository\\ePizza.Repository.csproj|solutionrelative:epizza.repository\\contracts\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC188A12-4329-4699-BA34-65C7F1116371}|ePizza.Models\\ePizza.Models.csproj|c:\\project\\epizzahub\\epizza.models\\request\\createuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC188A12-4329-4699-BA34-65C7F1116371}|ePizza.Models\\ePizza.Models.csproj|solutionrelative:epizza.models\\request\\createuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAFA4783-A712-492D-BB46-EF9B1315E58E}|ePizza.API\\ePizza.API.csproj|c:\\project\\epizzahub\\epizza.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAFA4783-A712-492D-BB46-EF9B1315E58E}|ePizza.API\\ePizza.API.csproj|solutionrelative:epizza.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6FDF016-E7DB-4BB0-B37E-D528748F3D4A}|ePizza.Repository\\ePizza.Repository.csproj|c:\\project\\epizzahub\\epizza.repository\\concrete\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6FDF016-E7DB-4BB0-B37E-D528748F3D4A}|ePizza.Repository\\ePizza.Repository.csproj|solutionrelative:epizza.repository\\concrete\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FC476AA-857E-4F79-97C7-2CB6D7418DBC}|ePizza.Core\\ePizza.Core.csproj|c:\\project\\epizzahub\\epizza.core\\mapper\\usermapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FC476AA-857E-4F79-97C7-2CB6D7418DBC}|ePizza.Core\\ePizza.Core.csproj|solutionrelative:epizza.core\\mapper\\usermapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FC476AA-857E-4F79-97C7-2CB6D7418DBC}|ePizza.Core\\ePizza.Core.csproj|c:\\project\\epizzahub\\epizza.core\\contracts\\iuserservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FC476AA-857E-4F79-97C7-2CB6D7418DBC}|ePizza.Core\\ePizza.Core.csproj|solutionrelative:epizza.core\\contracts\\iuserservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAFA4783-A712-492D-BB46-EF9B1315E58E}|ePizza.API\\ePizza.API.csproj|c:\\project\\epizzahub\\epizza.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAFA4783-A712-492D-BB46-EF9B1315E58E}|ePizza.API\\ePizza.API.csproj|solutionrelative:epizza.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC188A12-4329-4699-BA34-65C7F1116371}|ePizza.Models\\ePizza.Models.csproj|c:\\project\\epizzahub\\epizza.models\\response\\userresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC188A12-4329-4699-BA34-65C7F1116371}|ePizza.Models\\ePizza.Models.csproj|solutionrelative:epizza.models\\response\\userresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FC476AA-857E-4F79-97C7-2CB6D7418DBC}|ePizza.Core\\ePizza.Core.csproj|c:\\project\\epizzahub\\epizza.core\\mapper\\usermappingextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FC476AA-857E-4F79-97C7-2CB6D7418DBC}|ePizza.Core\\ePizza.Core.csproj|solutionrelative:epizza.core\\mapper\\usermappingextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63B5760A-5A79-4434-9086-E4EC1B9C3A11}|epizza.Domain\\ePizza.Domain.csproj|c:\\project\\epizzahub\\epizza.domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63B5760A-5A79-4434-9086-E4EC1B9C3A11}|epizza.Domain\\ePizza.Domain.csproj|solutionrelative:epizza.domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAFA4783-A712-492D-BB46-EF9B1315E58E}|ePizza.API\\ePizza.API.csproj|c:\\project\\epizzahub\\epizza.api\\epizza.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CAFA4783-A712-492D-BB46-EF9B1315E58E}|ePizza.API\\ePizza.API.csproj|solutionrelative:epizza.api\\epizza.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 242,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserServices.cs",
+              "DocumentMoniker": "C:\\project\\ePizzaHub\\ePizza.Core\\Concrete\\UserServices.cs",
+              "RelativeDocumentMoniker": "ePizza.Core\\Concrete\\UserServices.cs",
+              "ToolTip": "C:\\project\\ePizzaHub\\ePizza.Core\\Concrete\\UserServices.cs",
+              "RelativeToolTip": "ePizza.Core\\Concrete\\UserServices.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T21:03:50.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserMapping.cs",
+              "DocumentMoniker": "C:\\project\\ePizzaHub\\ePizza.Core\\Mapper\\UserMapping.cs",
+              "RelativeDocumentMoniker": "ePizza.Core\\Mapper\\UserMapping.cs",
+              "ToolTip": "C:\\project\\ePizzaHub\\ePizza.Core\\Mapper\\UserMapping.cs",
+              "RelativeToolTip": "ePizza.Core\\Mapper\\UserMapping.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T19:36:33.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserResponseModel.cs",
+              "DocumentMoniker": "C:\\project\\ePizzaHub\\ePizza.Models\\Response\\UserResponseModel.cs",
+              "RelativeDocumentMoniker": "ePizza.Models\\Response\\UserResponseModel.cs",
+              "ToolTip": "C:\\project\\ePizzaHub\\ePizza.Models\\Response\\UserResponseModel.cs",
+              "RelativeToolTip": "ePizza.Models\\Response\\UserResponseModel.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAIBJwAwAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T20:56:18.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\project\\ePizzaHub\\ePizza.API\\Program.cs",
+              "RelativeDocumentMoniker": "ePizza.API\\Program.cs",
+              "ToolTip": "C:\\project\\ePizzaHub\\ePizza.API\\Program.cs",
+              "RelativeToolTip": "ePizza.API\\Program.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAqwAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T20:38:54.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "C:\\project\\ePizzaHub\\ePizza.Repository\\Contracts\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "ePizza.Repository\\Contracts\\IGenericRepository.cs",
+              "ToolTip": "C:\\project\\ePizzaHub\\ePizza.Repository\\Contracts\\IGenericRepository.cs",
+              "RelativeToolTip": "ePizza.Repository\\Contracts\\IGenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T20:21:04.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\project\\ePizzaHub\\ePizza.Repository\\Concrete\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "ePizza.Repository\\Concrete\\GenericRepository.cs",
+              "ToolTip": "C:\\project\\ePizzaHub\\ePizza.Repository\\Concrete\\GenericRepository.cs",
+              "RelativeToolTip": "ePizza.Repository\\Concrete\\GenericRepository.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T20:11:48.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\project\\ePizzaHub\\ePizza.API\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "ePizza.API\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\project\\ePizzaHub\\ePizza.API\\Controllers\\UserController.cs",
+              "RelativeToolTip": "ePizza.API\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAArwA8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T20:26:44.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IUserServices.cs",
+              "DocumentMoniker": "C:\\project\\ePizzaHub\\ePizza.Core\\Contracts\\IUserServices.cs",
+              "RelativeDocumentMoniker": "ePizza.Core\\Contracts\\IUserServices.cs",
+              "ToolTip": "C:\\project\\ePizzaHub\\ePizza.Core\\Contracts\\IUserServices.cs",
+              "RelativeToolTip": "ePizza.Core\\Contracts\\IUserServices.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAAA4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T21:03:25.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreateUserRequest.cs",
+              "DocumentMoniker": "C:\\project\\ePizzaHub\\ePizza.Models\\Request\\CreateUserRequest.cs",
+              "RelativeDocumentMoniker": "ePizza.Models\\Request\\CreateUserRequest.cs",
+              "ToolTip": "C:\\project\\ePizzaHub\\ePizza.Models\\Request\\CreateUserRequest.cs",
+              "RelativeToolTip": "ePizza.Models\\Request\\CreateUserRequest.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAvwBEAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T21:55:03.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\project\\ePizzaHub\\ePizza.Repository\\Concrete\\UserRepository.cs",
+              "RelativeDocumentMoniker": "ePizza.Repository\\Concrete\\UserRepository.cs",
+              "ToolTip": "C:\\project\\ePizzaHub\\ePizza.Repository\\Concrete\\UserRepository.cs",
+              "RelativeToolTip": "ePizza.Repository\\Concrete\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T20:39:21.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserMappingExtension.cs",
+              "DocumentMoniker": "C:\\project\\ePizzaHub\\ePizza.Core\\Mapper\\UserMappingExtension.cs",
+              "RelativeDocumentMoniker": "ePizza.Core\\Mapper\\UserMappingExtension.cs",
+              "ToolTip": "C:\\project\\ePizzaHub\\ePizza.Core\\Mapper\\UserMappingExtension.cs",
+              "RelativeToolTip": "ePizza.Core\\Mapper\\UserMappingExtension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T21:08:09.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\project\\ePizzaHub\\epizza.Domain\\Models\\User.cs",
+              "RelativeDocumentMoniker": "epizza.Domain\\Models\\User.cs",
+              "ToolTip": "C:\\project\\ePizzaHub\\epizza.Domain\\Models\\User.cs",
+              "RelativeToolTip": "epizza.Domain\\Models\\User.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAIBQwAkAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T20:56:59.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ePizza.API.csproj",
+              "DocumentMoniker": "C:\\project\\ePizzaHub\\ePizza.API\\ePizza.API.csproj",
+              "RelativeDocumentMoniker": "ePizza.API\\ePizza.API.csproj",
+              "ToolTip": "C:\\project\\ePizzaHub\\ePizza.API\\ePizza.API.csproj",
+              "RelativeToolTip": "ePizza.API\\ePizza.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-24T20:29:44.46Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
