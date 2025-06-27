@@ -2738,11 +2738,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\project\\ePizzaHub\\ePizza.Repository\\ePizza.Repository.csproj",
+      "projectUniqueName": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.Repository\\ePizza.Repository.csproj",
       "projectName": "ePizza.Repository",
-      "projectPath": "C:\\project\\ePizzaHub\\ePizza.Repository\\ePizza.Repository.csproj",
+      "projectPath": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.Repository\\ePizza.Repository.csproj",
       "packagesPath": "C:\\Users\\arunp\\.nuget\\packages\\",
-      "outputPath": "C:\\project\\ePizzaHub\\ePizza.Repository\\obj\\",
+      "outputPath": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.Repository\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2764,8 +2764,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\project\\ePizzaHub\\epizza.Domain\\ePizza.Domain.csproj": {
-              "projectPath": "C:\\project\\ePizzaHub\\epizza.Domain\\ePizza.Domain.csproj"
+            "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\epizza.Domain\\ePizza.Domain.csproj": {
+              "projectPath": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\epizza.Domain\\ePizza.Domain.csproj"
             }
           }
         }

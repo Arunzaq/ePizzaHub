@@ -25,6 +25,7 @@ namespace ePizza.API
             builder.Services.AddTransient<IUserService, UserServices>(); //Registering dependancies
             builder.Services.AddScoped<IUserRepository, UserRepository>();
             builder.Services.AddTransient<IRolesRepository,RoleRepository>();
+            builder.Services.AddTransient<IAuthServices,AuthServices>();
 
             builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 

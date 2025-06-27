@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\project\\ePizzaHub\\epizza.Domain\\ePizza.Domain.csproj": {}
+    "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\epizza.Domain\\ePizza.Domain.csproj": {}
   },
   "projects": {
-    "C:\\project\\ePizzaHub\\epizza.Domain\\ePizza.Domain.csproj": {
+    "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\epizza.Domain\\ePizza.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\project\\ePizzaHub\\epizza.Domain\\ePizza.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\epizza.Domain\\ePizza.Domain.csproj",
         "projectName": "ePizza.Domain",
-        "projectPath": "C:\\project\\ePizzaHub\\epizza.Domain\\ePizza.Domain.csproj",
+        "projectPath": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\epizza.Domain\\ePizza.Domain.csproj",
         "packagesPath": "C:\\Users\\arunp\\.nuget\\packages\\",
-        "outputPath": "C:\\project\\ePizzaHub\\epizza.Domain\\obj\\",
+        "outputPath": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\epizza.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

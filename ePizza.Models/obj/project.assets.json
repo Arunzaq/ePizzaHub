@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\project\\ePizzaHub\\ePizza.Models\\ePizza.Models.csproj",
+      "projectUniqueName": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.Models\\ePizza.Models.csproj",
       "projectName": "ePizza.Models",
-      "projectPath": "C:\\project\\ePizzaHub\\ePizza.Models\\ePizza.Models.csproj",
+      "projectPath": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.Models\\ePizza.Models.csproj",
       "packagesPath": "C:\\Users\\arunp\\.nuget\\packages\\",
-      "outputPath": "C:\\project\\ePizzaHub\\ePizza.Models\\obj\\",
+      "outputPath": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.Models\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

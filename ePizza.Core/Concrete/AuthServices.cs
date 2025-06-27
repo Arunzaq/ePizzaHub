@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace ePizza.Core.Concrete
 {
-    internal class AuthServices :IAuthServices
+    public class AuthServices :IAuthServices
     {
         private readonly IUserRepository _userRepository;
         private readonly IMapper _mapper;
@@ -22,7 +22,16 @@ namespace ePizza.Core.Concrete
 
         public bool validateUser(string username, string password)
         {
-           
+            var userDetails = _userRepository.findUser(username);
+            if (userDetails != null)
+            {
+                bool isvalidpassword = BCrypt.Net.BCrypt.Verify(password ,userDetails.Password );
+                if (isvalidpassword)
+                {
+                    return true;
+                }
+            }
+            return false;
         }
     }
 }

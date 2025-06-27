@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\project\\ePizzaHub\\ePizza.UI\\ePizza.UI.csproj": {}
+    "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\ePizza.UI.csproj": {}
   },
   "projects": {
-    "C:\\project\\ePizzaHub\\ePizza.UI\\ePizza.UI.csproj": {
+    "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\ePizza.UI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\project\\ePizzaHub\\ePizza.UI\\ePizza.UI.csproj",
+        "projectUniqueName": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\ePizza.UI.csproj",
         "projectName": "ePizza.UI",
-        "projectPath": "C:\\project\\ePizzaHub\\ePizza.UI\\ePizza.UI.csproj",
+        "projectPath": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\ePizza.UI.csproj",
         "packagesPath": "C:\\Users\\arunp\\.nuget\\packages\\",
-        "outputPath": "C:\\project\\ePizzaHub\\ePizza.UI\\obj\\",
+        "outputPath": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

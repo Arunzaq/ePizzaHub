@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using ePizza.Core.Contracts;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ePizza.API.Controllers
@@ -7,11 +8,18 @@ namespace ePizza.API.Controllers
     [ApiController]
     public class AuthController : ControllerBase
     {
+        private readonly IAuthServices _authServices;
+
+        public AuthController(IAuthServices authServices) 
+        {
+            _authServices = authServices;
+        }
         [HttpGet]
         public IActionResult ValidateUser(string UserName, string Password)
         {
 
-            return Ok();
+            var userDetails=_authServices.validateUser(UserName, Password);
+            return Ok(userDetails);
         }
     }
 }
