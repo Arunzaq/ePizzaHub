@@ -1,3 +1,5 @@
+using Microsoft.CodeAnalysis.Options;
+
 namespace ePizza.UI
 {
     public class Program
@@ -8,6 +10,13 @@ namespace ePizza.UI
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+
+            builder.Services.AddHttpClient("ePizzaApiClient", Options =>
+            {
+                Options.BaseAddress = new Uri(builder.Configuration["EpizzaApi:BaseAddress"]!);
+                Options.DefaultRequestHeaders.Add("Accept", "application/json");
+
+            });
 
             var app = builder.Build();
 

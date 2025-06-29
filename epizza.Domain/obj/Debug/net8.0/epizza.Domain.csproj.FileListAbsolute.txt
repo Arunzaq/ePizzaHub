@@ -11,3 +11,16 @@ C:\project\ePizzaHub\epizza.Domain\obj\Debug\net8.0\ePizza.Domain.dll
 C:\project\ePizzaHub\epizza.Domain\obj\Debug\net8.0\refint\ePizza.Domain.dll
 C:\project\ePizzaHub\epizza.Domain\obj\Debug\net8.0\ePizza.Domain.pdb
 C:\project\ePizzaHub\epizza.Domain\obj\Debug\net8.0\ref\ePizza.Domain.dll
+C:\Users\arunp\Documents\GitHub\ePizzaHub\epizza.Domain\bin\Debug\net8.0\ePizza.Domain.deps.json
+C:\Users\arunp\Documents\GitHub\ePizzaHub\epizza.Domain\bin\Debug\net8.0\ePizza.Domain.dll
+C:\Users\arunp\Documents\GitHub\ePizzaHub\epizza.Domain\bin\Debug\net8.0\ePizza.Domain.pdb
+C:\Users\arunp\Documents\GitHub\ePizzaHub\epizza.Domain\obj\Debug\net8.0\ePizza.Domain.csproj.AssemblyReference.cache
+C:\Users\arunp\Documents\GitHub\ePizzaHub\epizza.Domain\obj\Debug\net8.0\ePizza.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arunp\Documents\GitHub\ePizzaHub\epizza.Domain\obj\Debug\net8.0\ePizza.Domain.AssemblyInfoInputs.cache
+C:\Users\arunp\Documents\GitHub\ePizzaHub\epizza.Domain\obj\Debug\net8.0\ePizza.Domain.AssemblyInfo.cs
+C:\Users\arunp\Documents\GitHub\ePizzaHub\epizza.Domain\obj\Debug\net8.0\ePizza.Domain.csproj.CoreCompileInputs.cache
+C:\Users\arunp\Documents\GitHub\ePizzaHub\epizza.Domain\obj\Debug\net8.0\ePizza.Domain.sourcelink.json
+C:\Users\arunp\Documents\GitHub\ePizzaHub\epizza.Domain\obj\Debug\net8.0\ePizza.Domain.dll
+C:\Users\arunp\Documents\GitHub\ePizzaHub\epizza.Domain\obj\Debug\net8.0\refint\ePizza.Domain.dll
+C:\Users\arunp\Documents\GitHub\ePizzaHub\epizza.Domain\obj\Debug\net8.0\ePizza.Domain.pdb
+C:\Users\arunp\Documents\GitHub\ePizzaHub\epizza.Domain\obj\Debug\net8.0\ref\ePizza.Domain.dll

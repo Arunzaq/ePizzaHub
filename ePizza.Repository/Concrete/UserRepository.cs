@@ -21,7 +21,7 @@ namespace ePizza.Repository.Concrete
 
         public User findUser(string emailAdress)
         {
-            _dbContext.Users.Where(x=>x.Email==emailAdress).FirstOrDefault();
+            return _dbContext.Users.Where(x=>x.Email==emailAdress).FirstOrDefault()!;
         }
     }
 }

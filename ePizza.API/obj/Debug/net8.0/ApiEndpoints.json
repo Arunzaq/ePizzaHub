@@ -1,5 +1,26 @@
 [
   {
+    "ContainingType": "ePizza.API.Controllers.AuthController",
+    "Method": "ValidateUser",
+    "RelativePath": "api/Auth",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Password",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ePizza.API.Controllers.UserController",
     "Method": "Get",
     "RelativePath": "api/User",

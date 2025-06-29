@@ -10,3 +10,15 @@ C:\project\ePizzaHub\ePizza.Models\obj\Debug\net8.0\ePizza.Models.dll
 C:\project\ePizzaHub\ePizza.Models\obj\Debug\net8.0\refint\ePizza.Models.dll
 C:\project\ePizzaHub\ePizza.Models\obj\Debug\net8.0\ePizza.Models.pdb
 C:\project\ePizzaHub\ePizza.Models\obj\Debug\net8.0\ref\ePizza.Models.dll
+C:\Users\arunp\Documents\GitHub\ePizzaHub\ePizza.Models\bin\Debug\net8.0\ePizza.Models.deps.json
+C:\Users\arunp\Documents\GitHub\ePizzaHub\ePizza.Models\bin\Debug\net8.0\ePizza.Models.dll
+C:\Users\arunp\Documents\GitHub\ePizzaHub\ePizza.Models\bin\Debug\net8.0\ePizza.Models.pdb
+C:\Users\arunp\Documents\GitHub\ePizzaHub\ePizza.Models\obj\Debug\net8.0\ePizza.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arunp\Documents\GitHub\ePizzaHub\ePizza.Models\obj\Debug\net8.0\ePizza.Models.AssemblyInfoInputs.cache
+C:\Users\arunp\Documents\GitHub\ePizzaHub\ePizza.Models\obj\Debug\net8.0\ePizza.Models.AssemblyInfo.cs
+C:\Users\arunp\Documents\GitHub\ePizzaHub\ePizza.Models\obj\Debug\net8.0\ePizza.Models.csproj.CoreCompileInputs.cache
+C:\Users\arunp\Documents\GitHub\ePizzaHub\ePizza.Models\obj\Debug\net8.0\ePizza.Models.sourcelink.json
+C:\Users\arunp\Documents\GitHub\ePizzaHub\ePizza.Models\obj\Debug\net8.0\ePizza.Models.dll
+C:\Users\arunp\Documents\GitHub\ePizzaHub\ePizza.Models\obj\Debug\net8.0\refint\ePizza.Models.dll
+C:\Users\arunp\Documents\GitHub\ePizzaHub\ePizza.Models\obj\Debug\net8.0\ePizza.Models.pdb
+C:\Users\arunp\Documents\GitHub\ePizzaHub\ePizza.Models\obj\Debug\net8.0\ref\ePizza.Models.dll
