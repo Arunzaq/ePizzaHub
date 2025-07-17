@@ -2,6 +2,7 @@
 using epizza.Domain.Models;
 using ePizza.Core.Concrete;
 using ePizza.Core.Contracts;
+using ePizza.Core.Utils;
 using ePizza.Repository.Concrete;
 using ePizza.Repository.Contracts;
 using Microsoft.EntityFrameworkCore;
@@ -21,6 +22,7 @@ namespace ePizza.API
             {
                 Options.UseSqlServer(builder.Configuration.GetConnectionString("DatabaseConnection"));
             });
+            builder.Services.AddSingleton<TokenGenerator>();
 
             builder.Services.AddTransient<IUserService, UserServices>(); //Registering dependancies
             builder.Services.AddScoped<IUserRepository, UserRepository>();

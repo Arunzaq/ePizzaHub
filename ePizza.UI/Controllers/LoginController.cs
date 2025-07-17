@@ -27,14 +27,14 @@ namespace ePizza.UI.Controllers
                 var UserValid = await client.GetFromJsonAsync<bool>($"api/Auth?UserName={loginModel.UserName}&Password={loginModel.Password}");
                 if (UserValid)
                 {
-                   return RedirectToAction("WelcomeScreen");
+                   return RedirectToAction("WelcomScreen");
                 }
             }
             return View();
         }
 
         [HttpGet]
-        public IActionResult WelcomeScreen()
+        public IActionResult WelcomScreen()
         {
             return View();
         }
