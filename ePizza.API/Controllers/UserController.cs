@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using ePizza.Core.Contracts;
 using ePizza.Models.Request;
+using Microsoft.AspNetCore.Authorization;
 
 namespace ePizza.API.Controllers
 {
@@ -15,6 +16,7 @@ namespace ePizza.API.Controllers
             _userService = userService;
         }
         [HttpGet]
+        [Authorize]
         public async Task< IActionResult >Get()
         {
             var UserResponse= _userService.GetAllUsers();

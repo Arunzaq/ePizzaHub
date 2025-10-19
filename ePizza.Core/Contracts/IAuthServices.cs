@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ePizza.Models.Response;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,6 +9,6 @@ namespace ePizza.Core.Contracts
 {
     public interface IAuthServices
     {
-        bool validateUser(string username, string password);
+        ValidateUserResponse validateUser(string username, string password);
     }
 }

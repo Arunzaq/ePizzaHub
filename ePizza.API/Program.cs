@@ -5,8 +5,11 @@ using ePizza.Core.Contracts;
 using ePizza.Core.Utils;
 using ePizza.Repository.Concrete;
 using ePizza.Repository.Contracts;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 namespace ePizza.API
 {
@@ -29,6 +32,19 @@ namespace ePizza.API
             builder.Services.AddTransient<IRolesRepository,RoleRepository>();
             builder.Services.AddTransient<IAuthServices,AuthServices>();
 
+            builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+                .AddJwtBearer(Options =>
+                {
+                    Options.RequireHttpsMetadata = false;
+                    Options.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters()
+                    {
+                        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Secret"]!)),
+                        ValidIssuer = builder.Configuration["Jwt:Issuer"],
+                        ValidAudience = builder.Configuration["Jwt:Audience"],
+                        ClockSkew = TimeSpan.FromMinutes(10)
+                    };
+                });
+
             builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
             builder.Services.AddControllers();
@@ -48,6 +64,7 @@ namespace ePizza.API
             app.UseHttpsRedirection();
 
             app.UseAuthorization();
+            app.UseAuthentication();
 
 
             app.MapControllers();

@@ -1,7 +1,7 @@
 [
   {
     "ContainingType": "ePizza.API.Controllers.AuthController",
-    "Method": "ValidateUser",
+    "Method": "ValidateUserResponse",
     "RelativePath": "api/Auth",
     "HttpMethod": "GET",
     "IsController": true,

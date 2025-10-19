@@ -18,13 +18,13 @@ namespace ePizza.API.Controllers
             _tokenGenerator = tokenGenerator;
         }
         [HttpGet]
-        public IActionResult ValidateUser(string UserName, string Password)
+        public IActionResult ValidateUserResponse(string UserName, string Password)
         {
 
             var userDetails=_authServices.validateUser(UserName, Password);
-            if (userDetails)
+            if (userDetails !=null)
             { 
-            var Securitytoken=_tokenGenerator.GenerateToken();
+            var Securitytoken=_tokenGenerator.GenerateToken(userDetails);
                 return Ok(Securitytoken);
             }
             return Ok(userDetails);

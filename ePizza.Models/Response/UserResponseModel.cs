@@ -22,4 +22,13 @@ namespace ePizza.Models.Response
 
         public DateTime CreatedDate { get; set; }
     }
+
+    public class ValidateUserResponse
+    {
+        public string Name { get; set; }
+
+        public string Email { get; set; }
+        public List<string> Roles { get; set; }
+    }
+
 }
