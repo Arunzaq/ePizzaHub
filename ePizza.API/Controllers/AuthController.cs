@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using ePizza.Core.Utils;
+using ePizza.Models.Response;
 
 namespace ePizza.API.Controllers
 {
@@ -25,9 +26,13 @@ namespace ePizza.API.Controllers
             if (userDetails !=null)
             { 
             var Securitytoken=_tokenGenerator.GenerateToken(userDetails);
-                return Ok(Securitytoken);
+                var response= new AuthApiResponseModel()
+                { 
+                accessToken = Securitytoken,
+                };
+                return Ok(response);
             }
-            return Ok(userDetails);
+            return BadRequest("User respose is not valid");
         }
     }
 }

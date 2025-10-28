@@ -8,6 +8,6 @@ namespace ePizza.Models.Response
 {
      public class AuthApiResponseModel
     {
-        public string accessToken { get; set; }
+        public string AccessToken { get; set; }
     }
 }

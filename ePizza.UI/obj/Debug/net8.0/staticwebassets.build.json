@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "PFHXYXtyFcoUtkDRK20tqUqWiQUbC0UkRgmpgs+zc7s=",
+  "Hash": "MN52bQg66AFF+7uuhkJplzdqY/C44s+rxuzXE8IHDlk=",
   "Source": "ePizza.UI",
   "BasePath": "_content/ePizza.UI",
   "Mode": "Default",
@@ -99,6 +99,321 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\wwwroot\\images\\7up.webp",
+      "SourceId": "ePizza.UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\wwwroot\\",
+      "BasePath": "_content/ePizza.UI",
+      "RelativePath": "images/7up#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cf61d6g1yh",
+      "Integrity": "OOSMl6dkrGbKagKsqAwE0m/zvQtFl0o4LVinhSdN0ww=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\7up.webp"
+    },
+    {
+      "Identity": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\wwwroot\\images\\butter_scotch.webp",
+      "SourceId": "ePizza.UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\wwwroot\\",
+      "BasePath": "_content/ePizza.UI",
+      "RelativePath": "images/butter_scotch#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "q8qa0dnvxt",
+      "Integrity": "WicLEaCowysdgDY+qZ/CafFFstAgBjoSDrIsT8wZrto=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\butter_scotch.webp"
+    },
+    {
+      "Identity": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\wwwroot\\images\\cheese_n_corn.webp",
+      "SourceId": "ePizza.UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\wwwroot\\",
+      "BasePath": "_content/ePizza.UI",
+      "RelativePath": "images/cheese_n_corn#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "uc468y4g66",
+      "Integrity": "jmvpHAMj09YLOrVSID5qprtCQNXKIgilQrKiMRdk6NI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\cheese_n_corn.webp"
+    },
+    {
+      "Identity": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\wwwroot\\images\\choco_lava.webp",
+      "SourceId": "ePizza.UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\wwwroot\\",
+      "BasePath": "_content/ePizza.UI",
+      "RelativePath": "images/choco_lava#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "tb3ylwioh9",
+      "Integrity": "WRrR1TAHmLRfJm1Ou1IGyel2L7ZriUAjzrsj4e7OL5g=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\choco_lava.webp"
+    },
+    {
+      "Identity": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\wwwroot\\images\\farmhouse_pizza.webp",
+      "SourceId": "ePizza.UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\wwwroot\\",
+      "BasePath": "_content/ePizza.UI",
+      "RelativePath": "images/farmhouse_pizza#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xrhfg5qmy6",
+      "Integrity": "Q5Ta4aMQ//qcxsONM85PY3XLZlswjodDucF04x3kdGI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\farmhouse_pizza.webp"
+    },
+    {
+      "Identity": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\wwwroot\\images\\logo.png",
+      "SourceId": "ePizza.UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\wwwroot\\",
+      "BasePath": "_content/ePizza.UI",
+      "RelativePath": "images/logo#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3u73oamwds",
+      "Integrity": "ayo0mhVlbl8py9HZqPT+S5OItFDmb7XEm0/9dUrodgg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\logo.png"
+    },
+    {
+      "Identity": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\wwwroot\\images\\mirinda.webp",
+      "SourceId": "ePizza.UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\wwwroot\\",
+      "BasePath": "_content/ePizza.UI",
+      "RelativePath": "images/mirinda#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1dl5m52pz3",
+      "Integrity": "m5qxJpJhbWeqeWqZYIsBxOEojiCh61n4+VQmXRYZv30=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\mirinda.webp"
+    },
+    {
+      "Identity": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\wwwroot\\images\\nonveg_supreme.webp",
+      "SourceId": "ePizza.UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\wwwroot\\",
+      "BasePath": "_content/ePizza.UI",
+      "RelativePath": "images/nonveg_supreme#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vadh8gs1m3",
+      "Integrity": "l6WJzwP6qDF3v8OHU6FvRt/pwa4Ul3QNgICDyeO3IW4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\nonveg_supreme.webp"
+    },
+    {
+      "Identity": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\wwwroot\\images\\noveg_delight.webp",
+      "SourceId": "ePizza.UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\wwwroot\\",
+      "BasePath": "_content/ePizza.UI",
+      "RelativePath": "images/noveg_delight#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "412xyrsdt7",
+      "Integrity": "eMkJ2PdaF1qxXyAaU5fh7WKr7NfxVPTNkKU1+ETNBMM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\noveg_delight.webp"
+    },
+    {
+      "Identity": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\wwwroot\\images\\paneer_pizza.webp",
+      "SourceId": "ePizza.UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\wwwroot\\",
+      "BasePath": "_content/ePizza.UI",
+      "RelativePath": "images/paneer_pizza#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1n1nwdjgt4",
+      "Integrity": "8/Nhs51pBPHwGGsXuVRWJlXHdq+FYFZK3xKF1asdaXE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\paneer_pizza.webp"
+    },
+    {
+      "Identity": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\wwwroot\\images\\pepsi.webp",
+      "SourceId": "ePizza.UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\wwwroot\\",
+      "BasePath": "_content/ePizza.UI",
+      "RelativePath": "images/pepsi#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "a7ban7gtge",
+      "Integrity": "ynVKceBvpObcUGw17SVL17f3L9xJ6ALA6ddfbMzIeew=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\pepsi.webp"
+    },
+    {
+      "Identity": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\wwwroot\\images\\pizza-header.png",
+      "SourceId": "ePizza.UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\wwwroot\\",
+      "BasePath": "_content/ePizza.UI",
+      "RelativePath": "images/pizza-header#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bz5hxoaony",
+      "Integrity": "eQabiks221+Htd9i59fGMUhpLrJSSp29ouzqszT2Fsw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\pizza-header.png"
+    },
+    {
+      "Identity": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\wwwroot\\images\\pngwing.com.png",
+      "SourceId": "ePizza.UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\wwwroot\\",
+      "BasePath": "_content/ePizza.UI",
+      "RelativePath": "images/pngwing.com#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xhc2wf6i9g",
+      "Integrity": "O7gWWBUWR8mtdW/EFLR0aUh2d+Yzdtt2xWhMoGJcQ4c=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\pngwing.com.png"
+    },
+    {
+      "Identity": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\wwwroot\\images\\red_cake.webp",
+      "SourceId": "ePizza.UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\wwwroot\\",
+      "BasePath": "_content/ePizza.UI",
+      "RelativePath": "images/red_cake#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "i5ehtij6ky",
+      "Integrity": "5tbixYFxzzYHtPIs2gruO7elLsDMm/5XrLUH5Kiquc8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\red_cake.webp"
+    },
+    {
+      "Identity": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\wwwroot\\images\\veggie_pizza.webp",
+      "SourceId": "ePizza.UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\wwwroot\\",
+      "BasePath": "_content/ePizza.UI",
+      "RelativePath": "images/veggie_pizza#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "l3wo1mgnxq",
+      "Integrity": "f86YHQPSAVvW+l4lDgVyFCgIwZZ6tTe3UOLy3d+5nng=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\veggie_pizza.webp"
     },
     {
       "Identity": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\wwwroot\\js\\site.js",
@@ -1425,7 +1740,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 26 Jun 2025 20:53:42 GMT"
+          "Value": "Mon, 27 Oct 2025 19:04:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1462,7 +1777,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 26 Jun 2025 20:53:42 GMT"
+          "Value": "Mon, 27 Oct 2025 19:04:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1507,7 +1822,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 26 Jun 2025 20:53:42 GMT"
+          "Value": "Mon, 27 Oct 2025 19:04:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1552,7 +1867,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 26 Jun 2025 20:53:42 GMT"
+          "Value": "Mon, 27 Oct 2025 19:04:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1645,6 +1960,1236 @@
         {
           "Name": "integrity",
           "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+        }
+      ]
+    },
+    {
+      "Route": "images/7up.cf61d6g1yh.webp",
+      "AssetFile": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\wwwroot\\images\\7up.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10506"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OOSMl6dkrGbKagKsqAwE0m/zvQtFl0o4LVinhSdN0ww=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Feb 2025 10:43:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cf61d6g1yh"
+        },
+        {
+          "Name": "label",
+          "Value": "images/7up.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OOSMl6dkrGbKagKsqAwE0m/zvQtFl0o4LVinhSdN0ww="
+        }
+      ]
+    },
+    {
+      "Route": "images/7up.webp",
+      "AssetFile": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\wwwroot\\images\\7up.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10506"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OOSMl6dkrGbKagKsqAwE0m/zvQtFl0o4LVinhSdN0ww=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Feb 2025 10:43:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OOSMl6dkrGbKagKsqAwE0m/zvQtFl0o4LVinhSdN0ww="
+        }
+      ]
+    },
+    {
+      "Route": "images/butter_scotch.q8qa0dnvxt.webp",
+      "AssetFile": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\wwwroot\\images\\butter_scotch.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20188"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WicLEaCowysdgDY+qZ/CafFFstAgBjoSDrIsT8wZrto=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Feb 2025 10:43:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "q8qa0dnvxt"
+        },
+        {
+          "Name": "label",
+          "Value": "images/butter_scotch.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WicLEaCowysdgDY+qZ/CafFFstAgBjoSDrIsT8wZrto="
+        }
+      ]
+    },
+    {
+      "Route": "images/butter_scotch.webp",
+      "AssetFile": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\wwwroot\\images\\butter_scotch.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20188"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WicLEaCowysdgDY+qZ/CafFFstAgBjoSDrIsT8wZrto=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Feb 2025 10:43:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WicLEaCowysdgDY+qZ/CafFFstAgBjoSDrIsT8wZrto="
+        }
+      ]
+    },
+    {
+      "Route": "images/cheese_n_corn.uc468y4g66.webp",
+      "AssetFile": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\wwwroot\\images\\cheese_n_corn.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30028"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jmvpHAMj09YLOrVSID5qprtCQNXKIgilQrKiMRdk6NI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Feb 2025 10:43:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "uc468y4g66"
+        },
+        {
+          "Name": "label",
+          "Value": "images/cheese_n_corn.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jmvpHAMj09YLOrVSID5qprtCQNXKIgilQrKiMRdk6NI="
+        }
+      ]
+    },
+    {
+      "Route": "images/cheese_n_corn.webp",
+      "AssetFile": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\wwwroot\\images\\cheese_n_corn.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30028"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jmvpHAMj09YLOrVSID5qprtCQNXKIgilQrKiMRdk6NI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Feb 2025 10:43:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jmvpHAMj09YLOrVSID5qprtCQNXKIgilQrKiMRdk6NI="
+        }
+      ]
+    },
+    {
+      "Route": "images/choco_lava.tb3ylwioh9.webp",
+      "AssetFile": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\wwwroot\\images\\choco_lava.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29320"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WRrR1TAHmLRfJm1Ou1IGyel2L7ZriUAjzrsj4e7OL5g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Feb 2025 10:43:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tb3ylwioh9"
+        },
+        {
+          "Name": "label",
+          "Value": "images/choco_lava.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WRrR1TAHmLRfJm1Ou1IGyel2L7ZriUAjzrsj4e7OL5g="
+        }
+      ]
+    },
+    {
+      "Route": "images/choco_lava.webp",
+      "AssetFile": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\wwwroot\\images\\choco_lava.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29320"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WRrR1TAHmLRfJm1Ou1IGyel2L7ZriUAjzrsj4e7OL5g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Feb 2025 10:43:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WRrR1TAHmLRfJm1Ou1IGyel2L7ZriUAjzrsj4e7OL5g="
+        }
+      ]
+    },
+    {
+      "Route": "images/farmhouse_pizza.webp",
+      "AssetFile": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\wwwroot\\images\\farmhouse_pizza.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "27842"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Q5Ta4aMQ//qcxsONM85PY3XLZlswjodDucF04x3kdGI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Feb 2025 10:43:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Q5Ta4aMQ//qcxsONM85PY3XLZlswjodDucF04x3kdGI="
+        }
+      ]
+    },
+    {
+      "Route": "images/farmhouse_pizza.xrhfg5qmy6.webp",
+      "AssetFile": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\wwwroot\\images\\farmhouse_pizza.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "27842"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Q5Ta4aMQ//qcxsONM85PY3XLZlswjodDucF04x3kdGI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Feb 2025 10:43:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xrhfg5qmy6"
+        },
+        {
+          "Name": "label",
+          "Value": "images/farmhouse_pizza.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Q5Ta4aMQ//qcxsONM85PY3XLZlswjodDucF04x3kdGI="
+        }
+      ]
+    },
+    {
+      "Route": "images/logo.3u73oamwds.png",
+      "AssetFile": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\wwwroot\\images\\logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15306"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ayo0mhVlbl8py9HZqPT+S5OItFDmb7XEm0/9dUrodgg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Feb 2025 10:43:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3u73oamwds"
+        },
+        {
+          "Name": "label",
+          "Value": "images/logo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ayo0mhVlbl8py9HZqPT+S5OItFDmb7XEm0/9dUrodgg="
+        }
+      ]
+    },
+    {
+      "Route": "images/logo.png",
+      "AssetFile": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\wwwroot\\images\\logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15306"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ayo0mhVlbl8py9HZqPT+S5OItFDmb7XEm0/9dUrodgg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Feb 2025 10:43:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ayo0mhVlbl8py9HZqPT+S5OItFDmb7XEm0/9dUrodgg="
+        }
+      ]
+    },
+    {
+      "Route": "images/mirinda.1dl5m52pz3.webp",
+      "AssetFile": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\wwwroot\\images\\mirinda.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24546"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"m5qxJpJhbWeqeWqZYIsBxOEojiCh61n4+VQmXRYZv30=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Feb 2025 10:43:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1dl5m52pz3"
+        },
+        {
+          "Name": "label",
+          "Value": "images/mirinda.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-m5qxJpJhbWeqeWqZYIsBxOEojiCh61n4+VQmXRYZv30="
+        }
+      ]
+    },
+    {
+      "Route": "images/mirinda.webp",
+      "AssetFile": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\wwwroot\\images\\mirinda.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24546"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"m5qxJpJhbWeqeWqZYIsBxOEojiCh61n4+VQmXRYZv30=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Feb 2025 10:43:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-m5qxJpJhbWeqeWqZYIsBxOEojiCh61n4+VQmXRYZv30="
+        }
+      ]
+    },
+    {
+      "Route": "images/nonveg_supreme.vadh8gs1m3.webp",
+      "AssetFile": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\wwwroot\\images\\nonveg_supreme.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "26580"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"l6WJzwP6qDF3v8OHU6FvRt/pwa4Ul3QNgICDyeO3IW4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Feb 2025 10:43:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vadh8gs1m3"
+        },
+        {
+          "Name": "label",
+          "Value": "images/nonveg_supreme.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-l6WJzwP6qDF3v8OHU6FvRt/pwa4Ul3QNgICDyeO3IW4="
+        }
+      ]
+    },
+    {
+      "Route": "images/nonveg_supreme.webp",
+      "AssetFile": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\wwwroot\\images\\nonveg_supreme.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "26580"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"l6WJzwP6qDF3v8OHU6FvRt/pwa4Ul3QNgICDyeO3IW4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Feb 2025 10:43:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-l6WJzwP6qDF3v8OHU6FvRt/pwa4Ul3QNgICDyeO3IW4="
+        }
+      ]
+    },
+    {
+      "Route": "images/noveg_delight.412xyrsdt7.webp",
+      "AssetFile": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\wwwroot\\images\\noveg_delight.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21158"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eMkJ2PdaF1qxXyAaU5fh7WKr7NfxVPTNkKU1+ETNBMM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Feb 2025 10:43:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "412xyrsdt7"
+        },
+        {
+          "Name": "label",
+          "Value": "images/noveg_delight.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-eMkJ2PdaF1qxXyAaU5fh7WKr7NfxVPTNkKU1+ETNBMM="
+        }
+      ]
+    },
+    {
+      "Route": "images/noveg_delight.webp",
+      "AssetFile": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\wwwroot\\images\\noveg_delight.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21158"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eMkJ2PdaF1qxXyAaU5fh7WKr7NfxVPTNkKU1+ETNBMM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Feb 2025 10:43:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-eMkJ2PdaF1qxXyAaU5fh7WKr7NfxVPTNkKU1+ETNBMM="
+        }
+      ]
+    },
+    {
+      "Route": "images/paneer_pizza.1n1nwdjgt4.webp",
+      "AssetFile": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\wwwroot\\images\\paneer_pizza.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30132"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8/Nhs51pBPHwGGsXuVRWJlXHdq+FYFZK3xKF1asdaXE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Feb 2025 10:43:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1n1nwdjgt4"
+        },
+        {
+          "Name": "label",
+          "Value": "images/paneer_pizza.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8/Nhs51pBPHwGGsXuVRWJlXHdq+FYFZK3xKF1asdaXE="
+        }
+      ]
+    },
+    {
+      "Route": "images/paneer_pizza.webp",
+      "AssetFile": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\wwwroot\\images\\paneer_pizza.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30132"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8/Nhs51pBPHwGGsXuVRWJlXHdq+FYFZK3xKF1asdaXE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Feb 2025 10:43:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8/Nhs51pBPHwGGsXuVRWJlXHdq+FYFZK3xKF1asdaXE="
+        }
+      ]
+    },
+    {
+      "Route": "images/pepsi.a7ban7gtge.webp",
+      "AssetFile": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\wwwroot\\images\\pepsi.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14926"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ynVKceBvpObcUGw17SVL17f3L9xJ6ALA6ddfbMzIeew=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Feb 2025 10:43:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "a7ban7gtge"
+        },
+        {
+          "Name": "label",
+          "Value": "images/pepsi.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ynVKceBvpObcUGw17SVL17f3L9xJ6ALA6ddfbMzIeew="
+        }
+      ]
+    },
+    {
+      "Route": "images/pepsi.webp",
+      "AssetFile": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\wwwroot\\images\\pepsi.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14926"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ynVKceBvpObcUGw17SVL17f3L9xJ6ALA6ddfbMzIeew=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Feb 2025 10:43:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ynVKceBvpObcUGw17SVL17f3L9xJ6ALA6ddfbMzIeew="
+        }
+      ]
+    },
+    {
+      "Route": "images/pizza-header.bz5hxoaony.png",
+      "AssetFile": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\wwwroot\\images\\pizza-header.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2206997"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eQabiks221+Htd9i59fGMUhpLrJSSp29ouzqszT2Fsw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Feb 2025 10:43:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bz5hxoaony"
+        },
+        {
+          "Name": "label",
+          "Value": "images/pizza-header.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-eQabiks221+Htd9i59fGMUhpLrJSSp29ouzqszT2Fsw="
+        }
+      ]
+    },
+    {
+      "Route": "images/pizza-header.png",
+      "AssetFile": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\wwwroot\\images\\pizza-header.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2206997"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eQabiks221+Htd9i59fGMUhpLrJSSp29ouzqszT2Fsw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Feb 2025 10:43:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-eQabiks221+Htd9i59fGMUhpLrJSSp29ouzqszT2Fsw="
+        }
+      ]
+    },
+    {
+      "Route": "images/pngwing.com.png",
+      "AssetFile": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\wwwroot\\images\\pngwing.com.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2273385"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"O7gWWBUWR8mtdW/EFLR0aUh2d+Yzdtt2xWhMoGJcQ4c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 22 Oct 2025 03:13:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-O7gWWBUWR8mtdW/EFLR0aUh2d+Yzdtt2xWhMoGJcQ4c="
+        }
+      ]
+    },
+    {
+      "Route": "images/pngwing.com.xhc2wf6i9g.png",
+      "AssetFile": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\wwwroot\\images\\pngwing.com.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2273385"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"O7gWWBUWR8mtdW/EFLR0aUh2d+Yzdtt2xWhMoGJcQ4c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 22 Oct 2025 03:13:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xhc2wf6i9g"
+        },
+        {
+          "Name": "label",
+          "Value": "images/pngwing.com.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-O7gWWBUWR8mtdW/EFLR0aUh2d+Yzdtt2xWhMoGJcQ4c="
+        }
+      ]
+    },
+    {
+      "Route": "images/red_cake.i5ehtij6ky.webp",
+      "AssetFile": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\wwwroot\\images\\red_cake.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19230"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5tbixYFxzzYHtPIs2gruO7elLsDMm/5XrLUH5Kiquc8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Feb 2025 10:43:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "i5ehtij6ky"
+        },
+        {
+          "Name": "label",
+          "Value": "images/red_cake.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5tbixYFxzzYHtPIs2gruO7elLsDMm/5XrLUH5Kiquc8="
+        }
+      ]
+    },
+    {
+      "Route": "images/red_cake.webp",
+      "AssetFile": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\wwwroot\\images\\red_cake.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19230"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5tbixYFxzzYHtPIs2gruO7elLsDMm/5XrLUH5Kiquc8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Feb 2025 10:43:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5tbixYFxzzYHtPIs2gruO7elLsDMm/5XrLUH5Kiquc8="
+        }
+      ]
+    },
+    {
+      "Route": "images/veggie_pizza.l3wo1mgnxq.webp",
+      "AssetFile": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\wwwroot\\images\\veggie_pizza.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30138"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"f86YHQPSAVvW+l4lDgVyFCgIwZZ6tTe3UOLy3d+5nng=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Feb 2025 10:43:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "l3wo1mgnxq"
+        },
+        {
+          "Name": "label",
+          "Value": "images/veggie_pizza.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-f86YHQPSAVvW+l4lDgVyFCgIwZZ6tTe3UOLy3d+5nng="
+        }
+      ]
+    },
+    {
+      "Route": "images/veggie_pizza.webp",
+      "AssetFile": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\wwwroot\\images\\veggie_pizza.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30138"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"f86YHQPSAVvW+l4lDgVyFCgIwZZ6tTe3UOLy3d+5nng=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Feb 2025 10:43:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-f86YHQPSAVvW+l4lDgVyFCgIwZZ6tTe3UOLy3d+5nng="
         }
       ]
     },

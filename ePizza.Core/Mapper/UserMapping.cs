@@ -16,6 +16,7 @@ namespace ePizza.Core.Mapper
         {
             CreateMap<User, UserResponseModel>().ReverseMap();
             CreateMap<CreateUserRequest, User>();
+            CreateMap<Item, ItemResponseModel>();
         }
     }
 }

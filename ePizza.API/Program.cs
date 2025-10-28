@@ -1,5 +1,6 @@
 
 using epizza.Domain.Models;
+using ePizza.API.Middlewares;
 using ePizza.Core.Concrete;
 using ePizza.Core.Contracts;
 using ePizza.Core.Utils;
@@ -27,10 +28,14 @@ namespace ePizza.API
             });
             builder.Services.AddSingleton<TokenGenerator>();
 
+            builder.Services.AddTransient<IAuthServices, AuthServices>();
             builder.Services.AddTransient<IUserService, UserServices>(); //Registering dependancies
+            builder.Services.AddTransient<IItemServices, ItemServices>();
+
             builder.Services.AddScoped<IUserRepository, UserRepository>();
-            builder.Services.AddTransient<IRolesRepository,RoleRepository>();
-            builder.Services.AddTransient<IAuthServices,AuthServices>();
+            builder.Services.AddScoped<IRolesRepository,RoleRepository>();
+            builder.Services.AddScoped<IItemRepository, ItemRepository>();
+
 
             builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
                 .AddJwtBearer(Options =>
@@ -61,6 +66,7 @@ namespace ePizza.API
                 app.UseSwaggerUI();
             }
 
+            app.UseMiddleware<CommonResponseMiddlewares>();  // Registering this middleware
             app.UseHttpsRedirection();
 
             app.UseAuthorization();

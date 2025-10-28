@@ -21,6 +21,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "ePizza.API.Controllers.ItemController",
+    "Method": "Get",
+    "RelativePath": "api/Item",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ePizza.API.Controllers.UserController",
     "Method": "Get",
     "RelativePath": "api/User",

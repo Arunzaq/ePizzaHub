@@ -13,6 +13,66 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\wwwroot\\images\\7up.webp",
+      "PackagePath": "staticwebassets\\images\\7up.webp"
+    },
+    {
+      "Id": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\wwwroot\\images\\butter_scotch.webp",
+      "PackagePath": "staticwebassets\\images\\butter_scotch.webp"
+    },
+    {
+      "Id": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\wwwroot\\images\\cheese_n_corn.webp",
+      "PackagePath": "staticwebassets\\images\\cheese_n_corn.webp"
+    },
+    {
+      "Id": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\wwwroot\\images\\choco_lava.webp",
+      "PackagePath": "staticwebassets\\images\\choco_lava.webp"
+    },
+    {
+      "Id": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\wwwroot\\images\\farmhouse_pizza.webp",
+      "PackagePath": "staticwebassets\\images\\farmhouse_pizza.webp"
+    },
+    {
+      "Id": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\wwwroot\\images\\mirinda.webp",
+      "PackagePath": "staticwebassets\\images\\mirinda.webp"
+    },
+    {
+      "Id": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\wwwroot\\images\\nonveg_supreme.webp",
+      "PackagePath": "staticwebassets\\images\\nonveg_supreme.webp"
+    },
+    {
+      "Id": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\wwwroot\\images\\noveg_delight.webp",
+      "PackagePath": "staticwebassets\\images\\noveg_delight.webp"
+    },
+    {
+      "Id": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\wwwroot\\images\\paneer_pizza.webp",
+      "PackagePath": "staticwebassets\\images\\paneer_pizza.webp"
+    },
+    {
+      "Id": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\wwwroot\\images\\pepsi.webp",
+      "PackagePath": "staticwebassets\\images\\pepsi.webp"
+    },
+    {
+      "Id": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\wwwroot\\images\\pizza-header.png",
+      "PackagePath": "staticwebassets\\images\\pizza-header.png"
+    },
+    {
+      "Id": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\wwwroot\\images\\pngwing.com.png",
+      "PackagePath": "staticwebassets\\images\\pngwing.com.png"
+    },
+    {
+      "Id": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\wwwroot\\images\\red_cake.webp",
+      "PackagePath": "staticwebassets\\images\\red_cake.webp"
+    },
+    {
+      "Id": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\wwwroot\\images\\veggie_pizza.webp",
+      "PackagePath": "staticwebassets\\images\\veggie_pizza.webp"
+    },
+    {
       "Id": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
