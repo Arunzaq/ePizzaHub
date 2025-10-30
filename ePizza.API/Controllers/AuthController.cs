@@ -28,7 +28,7 @@ namespace ePizza.API.Controllers
             var Securitytoken=_tokenGenerator.GenerateToken(userDetails);
                 var response= new AuthApiResponseModel()
                 { 
-                accessToken = Securitytoken,
+                AccessToken = Securitytoken,
                 };
                 return Ok(response);
             }

@@ -1,8 +1,10 @@
 ﻿using ePizza.UI.Models;
+using ePizza.UI.Models.ApiResponses;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 
 namespace ePizza.UI.Controllers
@@ -29,22 +31,40 @@ namespace ePizza.UI.Controllers
             {
                 var client = _httpClientFactory.CreateClient("ePizzaApiClient");
                 //var UserValid = await client.GetFromJsonAsync<bool>($"api/Auth?UserName={loginModel.UserName}&Password={loginModel.Password}");
+                var userResponse = await client.GetFromJsonAsync<ApiResponseModel<ValidateUserResponseModel>>(
+                    $"api/Auth?userName={loginModel.UserName}$password={loginModel.Password}");
 
-                bool validUser = true;
-                if (validUser)
+                if (userResponse.success)
                 {
+                    var accessToken=userResponse.Data.AccessToken;
+                    var TokenHandler = new JwtSecurityTokenHandler();
+
+                    var tokenDetails=TokenHandler.ReadToken(accessToken) as JwtSecurityToken;
+
                     List<Claim> claims = new List<Claim>();
-                    var identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
-                    var principal= new ClaimsPrincipal(identity);
-                    await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, principal, new AuthenticationProperties()
+                    foreach (var item in tokenDetails.Claims)
                     {
-                        IsPersistent = false,
-                        ExpiresUtc = DateTime.UtcNow.AddMinutes(60)
-                    });
+                        claims.Add(new Claim(item.Type, item.Value));
+                    }
+                   await GenerateTicket(claims);
                    return RedirectToAction("WelcomScreen");
                 }
             }
             return View();
+        }
+
+        private async Task GenerateTicket(List<Claim> claims)
+        {
+            var identity=new ClaimsIdentity(claims,CookieAuthenticationDefaults.AuthenticationScheme);
+            var principal=new ClaimsPrincipal(identity);
+
+            await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, principal,
+                new AuthenticationProperties()
+                {
+                    IsPersistent = false,
+                    ExpiresUtc = DateTime.UtcNow.AddMinutes(60)
+                });
+
         }
 
         [HttpGet]

@@ -531,3 +531,8 @@ C:\Users\DELL\Documents\GitHub\ePizzaHub\ePizza.UI\obj\Debug\net8.0\refint\ePizz
 C:\Users\DELL\Documents\GitHub\ePizzaHub\ePizza.UI\obj\Debug\net8.0\ePizza.UI.pdb
 C:\Users\DELL\Documents\GitHub\ePizzaHub\ePizza.UI\obj\Debug\net8.0\ePizza.UI.genruntimeconfig.cache
 C:\Users\DELL\Documents\GitHub\ePizzaHub\ePizza.UI\obj\Debug\net8.0\ref\ePizza.UI.dll
+C:\Users\arunp\Documents\GitHub\ePizzaHub\ePizza.UI\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\arunp\Documents\GitHub\ePizzaHub\ePizza.UI\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\arunp\Documents\GitHub\ePizzaHub\ePizza.UI\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\arunp\Documents\GitHub\ePizzaHub\ePizza.UI\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\arunp\Documents\GitHub\ePizzaHub\ePizza.UI\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
