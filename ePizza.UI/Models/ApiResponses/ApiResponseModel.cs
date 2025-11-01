@@ -2,13 +2,13 @@
 {
     public class ApiResponseModel<T>
     {
-        public bool success { get; set; }
+        public bool Success { get; set; }
         public T Data { get; set; }
         public string message { get; set; }
 
-        public ApiResponseModel(bool Success, T data, string Message)
+        public ApiResponseModel(bool success, T data, string Message)
         {
-            success = success;
+            Success = success;
             Data = data;
             message = Message;
 

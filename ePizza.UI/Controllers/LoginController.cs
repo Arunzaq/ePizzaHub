@@ -32,9 +32,9 @@ namespace ePizza.UI.Controllers
                 var client = _httpClientFactory.CreateClient("ePizzaApiClient");
                 //var UserValid = await client.GetFromJsonAsync<bool>($"api/Auth?UserName={loginModel.UserName}&Password={loginModel.Password}");
                 var userResponse = await client.GetFromJsonAsync<ApiResponseModel<ValidateUserResponseModel>>(
-                    $"api/Auth?userName={loginModel.UserName}$password={loginModel.Password}");
+                    $"api/Auth?userName={loginModel.UserName}&password={loginModel.Password}");
 
-                if (userResponse.success)
+                if (userResponse.Success)
                 {
                     var accessToken=userResponse.Data.AccessToken;
                     var TokenHandler = new JwtSecurityTokenHandler();
@@ -47,7 +47,16 @@ namespace ePizza.UI.Controllers
                         claims.Add(new Claim(item.Type, item.Value));
                     }
                    await GenerateTicket(claims);
-                   return RedirectToAction("WelcomScreen");
+
+                    bool isAdmin = Convert.ToBoolean( claims.Where(x => x.Type == "IsAdmin").FirstOrDefault().Value);
+                    if (isAdmin)
+                    {
+                        return RedirectToAction("Index","Home",new {area=("Admin")});
+                    }
+                    else
+                    {
+                        return RedirectToAction("Index", "Home", new { area = ("User") });
+                    }
                 }
             }
             return View();

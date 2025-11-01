@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "MN52bQg66AFF+7uuhkJplzdqY/C44s+rxuzXE8IHDlk=",
+  "Hash": "uUO5y3jIe7v4f8Y7D/ODchkE2aQkLoNeF6v+cYb+nxg=",
   "Source": "ePizza.UI",
   "BasePath": "_content/ePizza.UI",
   "Mode": "Default",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "dtqpeonlnq",
-      "Integrity": "ATId9QTcQLIRCTwrFKPOm+rMlQQAjFLt47EjHz2Ls1o=",
+      "Fingerprint": "1o3ntzcbom",
+      "Integrity": "r2SSHJANOEPbG0OC5UlPqRLKhDunUzcifS1XsLBXPwA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ePizza.UI.styles.css"
@@ -52,8 +52,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "dtqpeonlnq",
-      "Integrity": "ATId9QTcQLIRCTwrFKPOm+rMlQQAjFLt47EjHz2Ls1o=",
+      "Fingerprint": "1o3ntzcbom",
+      "Integrity": "r2SSHJANOEPbG0OC5UlPqRLKhDunUzcifS1XsLBXPwA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ePizza.UI.bundle.scp.css"
@@ -1718,6 +1718,96 @@
       ]
     },
     {
+      "Route": "ePizza.UI.1o3ntzcbom.bundle.scp.css",
+      "AssetFile": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ePizza.UI.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3404"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"r2SSHJANOEPbG0OC5UlPqRLKhDunUzcifS1XsLBXPwA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 31 Oct 2025 15:11:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1o3ntzcbom"
+        },
+        {
+          "Name": "label",
+          "Value": "ePizza.UI.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-r2SSHJANOEPbG0OC5UlPqRLKhDunUzcifS1XsLBXPwA="
+        }
+      ]
+    },
+    {
+      "Route": "ePizza.UI.1o3ntzcbom.styles.css",
+      "AssetFile": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ePizza.UI.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3404"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"r2SSHJANOEPbG0OC5UlPqRLKhDunUzcifS1XsLBXPwA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 31 Oct 2025 15:11:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1o3ntzcbom"
+        },
+        {
+          "Name": "label",
+          "Value": "ePizza.UI.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-r2SSHJANOEPbG0OC5UlPqRLKhDunUzcifS1XsLBXPwA="
+        }
+      ]
+    },
+    {
       "Route": "ePizza.UI.bundle.scp.css",
       "AssetFile": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ePizza.UI.bundle.scp.css",
       "Selectors": [],
@@ -1728,7 +1818,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1127"
+          "Value": "3404"
         },
         {
           "Name": "Content-Type",
@@ -1736,11 +1826,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ATId9QTcQLIRCTwrFKPOm+rMlQQAjFLt47EjHz2Ls1o=\""
+          "Value": "\"r2SSHJANOEPbG0OC5UlPqRLKhDunUzcifS1XsLBXPwA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 27 Oct 2025 19:04:59 GMT"
+          "Value": "Fri, 31 Oct 2025 15:11:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1750,97 +1840,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ATId9QTcQLIRCTwrFKPOm+rMlQQAjFLt47EjHz2Ls1o="
-        }
-      ]
-    },
-    {
-      "Route": "ePizza.UI.dtqpeonlnq.bundle.scp.css",
-      "AssetFile": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ePizza.UI.bundle.scp.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1127"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ATId9QTcQLIRCTwrFKPOm+rMlQQAjFLt47EjHz2Ls1o=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 27 Oct 2025 19:04:59 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "dtqpeonlnq"
-        },
-        {
-          "Name": "label",
-          "Value": "ePizza.UI.bundle.scp.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-ATId9QTcQLIRCTwrFKPOm+rMlQQAjFLt47EjHz2Ls1o="
-        }
-      ]
-    },
-    {
-      "Route": "ePizza.UI.dtqpeonlnq.styles.css",
-      "AssetFile": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ePizza.UI.styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1127"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ATId9QTcQLIRCTwrFKPOm+rMlQQAjFLt47EjHz2Ls1o=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 27 Oct 2025 19:04:59 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "dtqpeonlnq"
-        },
-        {
-          "Name": "label",
-          "Value": "ePizza.UI.styles.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-ATId9QTcQLIRCTwrFKPOm+rMlQQAjFLt47EjHz2Ls1o="
+          "Value": "sha256-r2SSHJANOEPbG0OC5UlPqRLKhDunUzcifS1XsLBXPwA="
         }
       ]
     },
@@ -1855,7 +1855,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1127"
+          "Value": "3404"
         },
         {
           "Name": "Content-Type",
@@ -1863,11 +1863,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ATId9QTcQLIRCTwrFKPOm+rMlQQAjFLt47EjHz2Ls1o=\""
+          "Value": "\"r2SSHJANOEPbG0OC5UlPqRLKhDunUzcifS1XsLBXPwA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 27 Oct 2025 19:04:59 GMT"
+          "Value": "Fri, 31 Oct 2025 15:11:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1877,7 +1877,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ATId9QTcQLIRCTwrFKPOm+rMlQQAjFLt47EjHz2Ls1o="
+          "Value": "sha256-r2SSHJANOEPbG0OC5UlPqRLKhDunUzcifS1XsLBXPwA="
         }
       ]
     },

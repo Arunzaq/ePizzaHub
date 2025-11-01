@@ -1,4 +1,5 @@
 ﻿using ePizza.Models.Response;
+using System.IO;
 using System.Text.Json;
 
 namespace ePizza.API.Middlewares
@@ -12,27 +13,37 @@ namespace ePizza.API.Middlewares
         }
         public async Task InvokeAsync(HttpContext context)
         {
-            var OriginalBodyStream=context.Response.Body;
-            using (var MemmoryStraeam = new MemoryStream())
+            var originalBodyStream=context.Response.Body;
+            using (var memmoryStraeam = new MemoryStream())
             { 
-            context.Response.Body = MemmoryStraeam;
+            context.Response.Body = memmoryStraeam;
                 try
                 {
-                    await _next(context);
-                    if (context.Response.ContentType != null
-                        && context.Response.ContentType.Contains("application/json"))
-                    { 
-                    MemmoryStraeam.Seek(0, SeekOrigin.Begin);
-                        var ResponseBody= await new StreamReader(MemmoryStraeam).ReadToEndAsync();
-                        var Responseobj =
-                            new ApiResponseModel<object>
-                            (Success: context.Response.StatusCode >= 200 && context.Response.StatusCode <= 300,
-                            data: JsonSerializer.Deserialize<object>(ResponseBody)!,
-                            Message: "Request Completd Successfully");
+                        await _next(context);
 
-                        var jsonrespose=JsonSerializer.Serialize(Responseobj);
-                        context.Response.Body=OriginalBodyStream;
-                        await context.Response.WriteAsync(jsonrespose);
+                    if (context.Response.ContentType != null
+                        && context.Response.ContentType.Contains("application/json"))  // only process if response is in json format
+                    {
+                        memmoryStraeam.Seek(0, SeekOrigin.Begin);   // start reading memory stream
+                        bool isSuccess = context.Response.StatusCode == 200
+                            || context.Response.StatusCode == 201
+                            || context.Response.StatusCode == 202
+                            || context.Response.StatusCode == 204;
+
+                        var responseBody = await new StreamReader(memmoryStraeam).ReadToEndAsync(); // read the response
+
+                        // create response object
+                        var repsonseObj
+                            = new ApiResponseModel<object>(
+                                 // success: context.Response.StatusCode >= 200 && context.Response.StatusCode <= 300,
+                                 success: isSuccess,
+                                  data: JsonSerializer.Deserialize<object>(responseBody)!,
+                                  message: "Request completed successfully"
+                                );
+
+                        var jsonResponse = JsonSerializer.Serialize(repsonseObj);
+                        context.Response.Body = originalBodyStream;
+                        await context.Response.WriteAsync(jsonResponse); // send respone back to user
                     }
 
                 }
@@ -47,7 +58,7 @@ namespace ePizza.API.Middlewares
                     };
                     
                     var jsonrespose = JsonSerializer.Serialize(errorResponse);
-                    context.Response.Body = OriginalBodyStream;
+                    context.Response.Body = originalBodyStream;
                     await context.Response.WriteAsync(jsonrespose);
                 }
             }

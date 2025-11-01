@@ -536,3 +536,5 @@ C:\Users\arunp\Documents\GitHub\ePizzaHub\ePizza.UI\bin\Debug\net8.0\Microsoft.I
 C:\Users\arunp\Documents\GitHub\ePizzaHub\ePizza.UI\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
 C:\Users\arunp\Documents\GitHub\ePizzaHub\ePizza.UI\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\arunp\Documents\GitHub\ePizzaHub\ePizza.UI\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\arunp\Documents\GitHub\ePizzaHub\ePizza.UI\obj\Debug\net8.0\scopedcss\Areas\Admin\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\arunp\Documents\GitHub\ePizzaHub\ePizza.UI\obj\Debug\net8.0\scopedcss\Areas\User\Views\Shared\_Layout.cshtml.rz.scp.css

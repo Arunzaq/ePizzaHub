@@ -19,16 +19,16 @@ namespace ePizza.API.Controllers
             _tokenGenerator = tokenGenerator;
         }
         [HttpGet]
-        public IActionResult ValidateUserResponse(string UserName, string Password)
+        public IActionResult ValidateUser(string UserName, string Password)
         {
 
             var userDetails=_authServices.validateUser(UserName, Password);
             if (userDetails !=null)
             { 
-            var Securitytoken=_tokenGenerator.GenerateToken(userDetails);
+            var securitytoken=_tokenGenerator.GenerateToken(userDetails);
                 var response= new AuthApiResponseModel()
                 { 
-                AccessToken = Securitytoken,
+                AccessToken = securitytoken,
                 };
                 return Ok(response);
             }

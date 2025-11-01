@@ -1,9 +1,11 @@
 ﻿
 using epizza.Domain.Models;
 using ePizza.Repository.Contracts;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Mail;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -21,7 +23,9 @@ namespace ePizza.Repository.Concrete
 
         public User findUser(string emailAdress)
         {
-            return _dbContext.Users.Where(x=>x.Email==emailAdress).FirstOrDefault()!;
+            return _dbContext.Users.Include(
+            x => x.Roles)
+               .Where(x => x.Email == emailAdress).FirstOrDefault()!;
         }
     }
 }

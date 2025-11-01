@@ -21,8 +21,9 @@ namespace ePizza.Core.Utils
             _configuration = configuration;
         }
         public string GenerateToken(ValidateUserResponse userResponse)
+        
         {
-            string secretkey = _configuration["jwt:Secret"];
+            string secretkey = _configuration["jwt:Secret"]!;
             var securitykey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(secretkey));
             var credentials= new SigningCredentials(securitykey,SecurityAlgorithms.HmacSha256);
 
@@ -31,8 +32,9 @@ namespace ePizza.Core.Utils
                 Subject = new System.Security.Claims.ClaimsIdentity([
                     new Claim(ClaimTypes.Name,userResponse.Name),
                     new Claim(ClaimTypes.Email,userResponse.Email),
-                    new Claim("IsAdmin","true"),
-                    new Claim("Roles",JsonSerializer.Serialize(userResponse.Roles))]),
+                    new Claim("IsAdmin",userResponse.Roles.Any(x => x.Equals("Admin")).ToString()),
+                    new Claim("Roles",JsonSerializer.Serialize(userResponse.Roles))
+                    ]),
                 Expires = DateTime.UtcNow.AddMinutes(Convert.ToInt32(_configuration["jwt:TokenExpiryInMinutes"])),
                 SigningCredentials = credentials,
                 Issuer = _configuration["jwt:Issuer"],
