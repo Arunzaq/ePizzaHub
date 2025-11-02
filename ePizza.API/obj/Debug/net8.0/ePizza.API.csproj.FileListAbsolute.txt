@@ -338,3 +338,4 @@ C:\Users\DELL\Documents\GitHub\ePizzaHub\ePizza.API\obj\Debug\net8.0\ePizza.API.
 C:\Users\DELL\Documents\GitHub\ePizzaHub\ePizza.API\obj\Debug\net8.0\ref\ePizza.API.dll
 C:\Users\DELL\Documents\GitHub\ePizzaHub\ePizza.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\arunp\Documents\GitHub\ePizzaHub\ePizza.API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\DELL\Documents\GitHub\ePizzaHub\ePizza.API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
