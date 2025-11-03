@@ -15,12 +15,14 @@ namespace ePizza.Repository.Concrete
         {
         }
 
-        public Cart GetCart(Guid cartId)
+        public async Task<Cart> GetCartDetailsAsync(Guid cartId)
         {
-            return _dbContext
-                .Carts
-                .Include(x=>x.CartItems)
-                .Where(x => x.Id == cartId && x.IsActive == true).FirstOrDefault()!;
+            return await _dbContext
+                       .Carts
+                       .Include(x => x.CartItems)
+                       .Where(
+                              x => x.Id == cartId && x.IsActive == true)
+                      .FirstOrDefaultAsync();
         }
     }
 }

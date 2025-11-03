@@ -15,6 +15,6 @@ namespace ePizza.Repository.Contracts
         //updatequantity(CartId,ItemId,Qty)
         //UpdateCart
 
-        Cart GetCart(Guid cartId);
+        Task<Cart> GetCartDetailsAsync(Guid cartId);
     }
 }

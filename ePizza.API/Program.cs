@@ -31,12 +31,13 @@ namespace ePizza.API
             builder.Services.AddTransient<IAuthServices, AuthServices>();
             builder.Services.AddTransient<IUserService, UserServices>(); //Registering dependancies
             builder.Services.AddTransient<IItemServices, ItemServices>();
+            builder.Services.AddTransient<ICartRepository, CartRepository>();
             builder.Services.AddTransient<ICartServices, CartServices>();
 
             builder.Services.AddScoped<IUserRepository, UserRepository>();
             builder.Services.AddScoped<IRolesRepository,RoleRepository>();
             builder.Services.AddScoped<IItemRepository, ItemRepository>();
-            builder.Services.AddScoped<ICartRepository, CartRepository>();
+           
 
 
             builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)

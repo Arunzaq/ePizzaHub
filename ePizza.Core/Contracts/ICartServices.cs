@@ -4,10 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using ePizza.Core.Concrete;
+using ePizza.Models.Request;
+using ePizza.Models.Response;
 
 namespace ePizza.Core.Contracts
 {
     public interface ICartServices 
     {
+        Task<CartResponseModel> GetCartDetailAsync(Guid cartId);
+        Task<bool> AddItemToCartAssync(AddToCartRequest request);
     }
 }
