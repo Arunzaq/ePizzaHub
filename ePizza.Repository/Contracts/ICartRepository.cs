@@ -16,5 +16,7 @@ namespace ePizza.Repository.Contracts
         //UpdateCart
 
         Task<Cart> GetCartDetailsAsync(Guid cartId);
+        Task<bool> DeleteItemAsync(Guid CartId, int ItemId);
+      
     }
 }

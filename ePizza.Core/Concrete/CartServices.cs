@@ -22,6 +22,17 @@ namespace ePizza.Core.Concrete
             _cartRepository = cartRepository;
         }
 
+        public async Task<bool> DeleteItemFromCArtAsync(Guid CartId, int ItemId)
+        {
+            var isDeleted= await _cartRepository.DeleteItemAsync(CartId, ItemId);
+            if (!isDeleted)
+            {
+                throw new Exception($"Item with ItemId{ItemId} doesnt exists in cart with id {CartId}");
+
+            }
+            return isDeleted;
+        }
+
         public async Task<CartResponseModel> GetCartDetailAsync(Guid cartId)
         {
             var cartDetails= await _cartRepository.GetCartDetailsAsync(cartId);
@@ -42,7 +53,29 @@ namespace ePizza.Core.Concrete
                 int itemsAdded = AddNewCart(request);
                 return itemsAdded > 0;
             }
-            return false;
+            else
+            { 
+            CartItem cartItem= cartDetails.CartItems.Where(x=> x.ItemId==request.ItemId).FirstOrDefault()!;
+                if (cartItem == null)
+                {
+                    cartItem = new CartItem()
+                    {
+                       CartId=request.CartId,
+                       ItemId=request.ItemId,
+                       Quantity=request.Quantity,
+                       UnitPrice=request.UnitPrice,
+                    };
+                    cartDetails.CartItems.Add(cartItem);
+                }
+                else
+                {
+                    cartItem.Quantity += request.Quantity;
+                }
+                _cartRepository.Update(cartDetails);
+                int itemsAdded = _cartRepository.Commitchanges();
+                return itemsAdded > 0;
+            }
+          
             //else
             //{ 
             //   //Update existing Cart

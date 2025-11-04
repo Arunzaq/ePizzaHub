@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace ePizza.Repository.Concrete
 {
-    public class GenericRepository<T> : Contracts.IGenericRepository<T> where T : class
+    public class GenericRepository<T> : IGenericRepository<T> where T : class
     {
         protected epizzaHubDBContext _dbContext;
 
@@ -33,6 +33,11 @@ namespace ePizza.Repository.Concrete
         public IEnumerable<T> GetAll()
         {
             return _dbContext.Set<T>().ToList();
+        }
+
+        public void Update(T entity)
+        {
+            _dbContext.Set<T>().Update(entity);
         }
     }
 }

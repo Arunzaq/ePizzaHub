@@ -1,6 +1,7 @@
 ﻿using ePizza.Core.Contracts;
 using ePizza.Models.Request;
 using Microsoft.AspNetCore.Mvc;
+using System.Runtime.InteropServices;
 
 namespace ePizza.API.Controllers
 {
@@ -28,6 +29,14 @@ namespace ePizza.API.Controllers
         public async Task<IActionResult> AddItemToCart([FromBody]AddToCartRequest addToCartRequest)
         {
             var Data = await _cartServices.AddItemToCartAssync(addToCartRequest);
+            return Ok(Data);
+        }
+
+        [HttpPut]
+        [Route("delete-item")]
+        public async Task<IActionResult> DeleteItem(Guid CartId,int ItemId)
+        {
+            var Data = await _cartServices.DeleteItemFromCArtAsync(CartId,ItemId);
             return Ok(Data);
         }
     }

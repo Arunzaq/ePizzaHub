@@ -15,6 +15,18 @@ namespace ePizza.Repository.Concrete
         {
         }
 
+        public async Task<bool> DeleteItemAsync(Guid CartId, int ItemId)
+        {
+            var items=await _dbContext.CartItems.FirstOrDefaultAsync(x=>x.CartId==CartId && x.ItemId==ItemId);
+            if (items != null)
+            {
+                _dbContext.CartItems.Remove(items);
+                int recordsAffected=await _dbContext.SaveChangesAsync();
+                return recordsAffected > 0;
+            }
+            return false;
+        }
+
         public async Task<Cart> GetCartDetailsAsync(Guid cartId)
         {
             return await _dbContext
@@ -23,6 +35,10 @@ namespace ePizza.Repository.Concrete
                        .Where(
                               x => x.Id == cartId && x.IsActive == true)
                       .FirstOrDefaultAsync();
+        }
+        public async Task<int> GetCartItemsQuantity(Guid cartId)
+        {
+            return await _dbContext.CartItems.Where(x => x.CartId == cartId).CountAsync();
         }
     }
 }

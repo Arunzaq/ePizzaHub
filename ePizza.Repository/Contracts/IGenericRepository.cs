@@ -12,5 +12,6 @@ namespace ePizza.Repository.Contracts
         void Add(T entity);
         int Commitchanges();
         IEnumerable<T> GetAll();
+        void Update(T entity);
     }
 }
