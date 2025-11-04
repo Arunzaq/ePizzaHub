@@ -44,6 +44,16 @@ namespace ePizza.Core.Concrete
             return null;
         }
 
+        public async Task<int> GetitemCount(Guid cartId)
+        {
+            return await _cartRepository.GetCartItemsQuantity(cartId);
+        }
+
+        public Task<bool> UpdateItemCountAsync(Guid CartId, int ItemId, int NewQty)
+        {
+            throw new NotImplementedException();
+        }
+
         async Task<bool> ICartServices.AddItemToCartAssync(AddToCartRequest request)
         {
             var cartDetails = await _cartRepository.GetCartDetailsAsync(request.CartId);

@@ -1,6 +1,7 @@
 
 using epizza.Domain.Models;
 using ePizza.API.Middlewares;
+using ePizza.API.Utils;
 using ePizza.Core.Concrete;
 using ePizza.Core.Contracts;
 using ePizza.Core.Utils;
@@ -26,33 +27,9 @@ namespace ePizza.API
             {
                 Options.UseSqlServer(builder.Configuration.GetConnectionString("DatabaseConnection"));
             });
-            builder.Services.AddSingleton<TokenGenerator>();
 
-            builder.Services.AddTransient<IAuthServices, AuthServices>();
-            builder.Services.AddTransient<IUserService, UserServices>(); //Registering dependancies
-            builder.Services.AddTransient<IItemServices, ItemServices>();
-            builder.Services.AddTransient<ICartRepository, CartRepository>();
-            builder.Services.AddTransient<ICartServices, CartServices>();
-
-            builder.Services.AddScoped<IUserRepository, UserRepository>();
-            builder.Services.AddScoped<IRolesRepository,RoleRepository>();
-            builder.Services.AddScoped<IItemRepository, ItemRepository>();
+            builder.Services.RegisterDependancies().RegisterServices().Registerjwt(builder.Configuration);
            
-
-
-            builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
-                .AddJwtBearer(Options =>
-                {
-                    Options.RequireHttpsMetadata = false;
-                    Options.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters()
-                    {
-                        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Secret"]!)),
-                        ValidIssuer = builder.Configuration["Jwt:Issuer"],
-                        ValidAudience = builder.Configuration["Jwt:Audience"],
-                        ClockSkew = TimeSpan.FromMinutes(10)
-                    };
-                });
-
             builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
             builder.Services.AddControllers();

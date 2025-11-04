@@ -1,4 +1,5 @@
-﻿using ePizza.Models.Response;
+﻿using ePizza.Core.CustomException;
+using ePizza.Models.Response;
 using System.IO;
 using System.Text.Json;
 
@@ -46,6 +47,19 @@ namespace ePizza.API.Middlewares
                         await context.Response.WriteAsync(jsonResponse); // send respone back to user
                     }
 
+                }
+                catch (RecordNotFoundException ex)
+                {
+                    context.Response.StatusCode = 400;
+                    var errorResponse = new
+                    {
+                        success = false,
+                        data = (object)null,
+                        message = ex.Message
+                    };
+                    var jsonResponse = JsonSerializer.Serialize(errorResponse);
+                    context.Response.Body = originalBodyStream;
+                    await context.Response.WriteAsync(jsonResponse);
                 }
                 catch (Exception ex)
                 {

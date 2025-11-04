@@ -40,5 +40,10 @@ namespace ePizza.Repository.Concrete
         {
             return await _dbContext.CartItems.Where(x => x.CartId == cartId).CountAsync();
         }
+
+        public Task<bool> UpdateItemCountAsync(Guid CartId, int ItemId, int NewQty)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

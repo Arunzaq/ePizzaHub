@@ -24,6 +24,14 @@ namespace ePizza.API.Controllers
             return Ok(Data);
         }
 
+        [HttpGet]
+        [Route("get-cart-Count")]
+        public async Task<IActionResult> GetItemCount(Guid CartId)
+        {
+            var Data = await _cartServices.GetitemCount(CartId);
+            return Ok(Data);
+        }
+
         [HttpPost]
         [Route("add-item-to-cart")]
         public async Task<IActionResult> AddItemToCart([FromBody]AddToCartRequest addToCartRequest)
@@ -39,5 +47,14 @@ namespace ePizza.API.Controllers
             var Data = await _cartServices.DeleteItemFromCArtAsync(CartId,ItemId);
             return Ok(Data);
         }
+
+        [HttpPut]
+        [Route("update-item")]
+        public async Task<IActionResult> UpdateItem(Guid CartId, int ItemId, int NewQuatity)
+        {
+            var Data = await _cartServices.DeleteItemFromCArtAsync(CartId, ItemId);
+            return Ok(Data);
+        }
+
     }
 }

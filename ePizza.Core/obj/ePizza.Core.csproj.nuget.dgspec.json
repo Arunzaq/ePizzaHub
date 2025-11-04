@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.Core\\ePizza.Core.csproj": {}
+    "C:\\Users\\DELL\\Documents\\GitHub\\ePizzaHub\\ePizza.Core\\ePizza.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.Core\\ePizza.Core.csproj": {
+    "C:\\Users\\DELL\\Documents\\GitHub\\ePizzaHub\\ePizza.Core\\ePizza.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.Core\\ePizza.Core.csproj",
+        "projectUniqueName": "C:\\Users\\DELL\\Documents\\GitHub\\ePizzaHub\\ePizza.Core\\ePizza.Core.csproj",
         "projectName": "ePizza.Core",
-        "projectPath": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.Core\\ePizza.Core.csproj",
-        "packagesPath": "C:\\Users\\arunp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.Core\\obj\\",
+        "projectPath": "C:\\Users\\DELL\\Documents\\GitHub\\ePizzaHub\\ePizza.Core\\ePizza.Core.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DELL\\Documents\\GitHub\\ePizzaHub\\ePizza.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\arunp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,18 +26,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.Models\\ePizza.Models.csproj": {
-                "projectPath": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.Models\\ePizza.Models.csproj"
+              "C:\\Users\\DELL\\Documents\\GitHub\\ePizzaHub\\ePizza.Models\\ePizza.Models.csproj": {
+                "projectPath": "C:\\Users\\DELL\\Documents\\GitHub\\ePizzaHub\\ePizza.Models\\ePizza.Models.csproj"
               },
-              "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.Repository\\ePizza.Repository.csproj": {
-                "projectPath": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.Repository\\ePizza.Repository.csproj"
+              "C:\\Users\\DELL\\Documents\\GitHub\\ePizzaHub\\ePizza.Repository\\ePizza.Repository.csproj": {
+                "projectPath": "C:\\Users\\DELL\\Documents\\GitHub\\ePizzaHub\\ePizza.Repository\\ePizza.Repository.csproj"
               }
             }
           }
@@ -52,7 +51,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -83,24 +82,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\epizza.Domain\\ePizza.Domain.csproj": {
+    "C:\\Users\\DELL\\Documents\\GitHub\\ePizzaHub\\epizza.Domain\\ePizza.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\epizza.Domain\\ePizza.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\DELL\\Documents\\GitHub\\ePizzaHub\\epizza.Domain\\ePizza.Domain.csproj",
         "projectName": "ePizza.Domain",
-        "projectPath": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\epizza.Domain\\ePizza.Domain.csproj",
-        "packagesPath": "C:\\Users\\arunp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\epizza.Domain\\obj\\",
+        "projectPath": "C:\\Users\\DELL\\Documents\\GitHub\\ePizzaHub\\epizza.Domain\\ePizza.Domain.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DELL\\Documents\\GitHub\\ePizzaHub\\epizza.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\arunp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -109,7 +108,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -128,7 +126,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -155,24 +153,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.Models\\ePizza.Models.csproj": {
+    "C:\\Users\\DELL\\Documents\\GitHub\\ePizzaHub\\ePizza.Models\\ePizza.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.Models\\ePizza.Models.csproj",
+        "projectUniqueName": "C:\\Users\\DELL\\Documents\\GitHub\\ePizzaHub\\ePizza.Models\\ePizza.Models.csproj",
         "projectName": "ePizza.Models",
-        "projectPath": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.Models\\ePizza.Models.csproj",
-        "packagesPath": "C:\\Users\\arunp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.Models\\obj\\",
+        "projectPath": "C:\\Users\\DELL\\Documents\\GitHub\\ePizzaHub\\ePizza.Models\\ePizza.Models.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DELL\\Documents\\GitHub\\ePizzaHub\\ePizza.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\arunp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -181,7 +179,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -200,7 +197,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -221,24 +218,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.Repository\\ePizza.Repository.csproj": {
+    "C:\\Users\\DELL\\Documents\\GitHub\\ePizzaHub\\ePizza.Repository\\ePizza.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.Repository\\ePizza.Repository.csproj",
+        "projectUniqueName": "C:\\Users\\DELL\\Documents\\GitHub\\ePizzaHub\\ePizza.Repository\\ePizza.Repository.csproj",
         "projectName": "ePizza.Repository",
-        "projectPath": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.Repository\\ePizza.Repository.csproj",
-        "packagesPath": "C:\\Users\\arunp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.Repository\\obj\\",
+        "projectPath": "C:\\Users\\DELL\\Documents\\GitHub\\ePizzaHub\\ePizza.Repository\\ePizza.Repository.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DELL\\Documents\\GitHub\\ePizzaHub\\ePizza.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\arunp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -247,15 +244,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\epizza.Domain\\ePizza.Domain.csproj": {
-                "projectPath": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\epizza.Domain\\ePizza.Domain.csproj"
+              "C:\\Users\\DELL\\Documents\\GitHub\\ePizzaHub\\epizza.Domain\\ePizza.Domain.csproj": {
+                "projectPath": "C:\\Users\\DELL\\Documents\\GitHub\\ePizzaHub\\epizza.Domain\\ePizza.Domain.csproj"
               }
             }
           }
@@ -270,7 +266,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -291,7 +287,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
