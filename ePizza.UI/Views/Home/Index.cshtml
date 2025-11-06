@@ -41,7 +41,7 @@
                     <div>
                         <span>Size : Regular</span>
                         <span class="float-end">
-                            <a class="btn btn-primary">ADD TO CART</a>
+                            <a class="btn btn-primary" onclick="AddToCart(@item.Id,@item.UnitPrice,1)">ADD TO CART</a>
                         </span>
                     </div>
                 </div>
@@ -50,4 +50,7 @@
     </div>
 </div>
 
+@section Scripts {
+    <script src="~/js/cart.js" asp-append-version="true"></script>
+}
 

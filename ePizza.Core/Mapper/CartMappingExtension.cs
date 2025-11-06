@@ -26,6 +26,8 @@ namespace ePizza.Core.Mapper
                         ItemId = x.ItemId,
                         Quantity = x.Quantity,
                         UnitPrice = x.UnitPrice,
+                        ImageUrl=x.Item.ImageUrl,
+                        ItemName = x.Item.Name,
                     }).ToList();
                 response.Total = response.Items.Sum(x => x.Quantity * x.UnitPrice);
                 response.Tax = Math.Round(response.Total * 0.05m, 2);

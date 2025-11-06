@@ -1,4 +1,5 @@
 ﻿using ePizza.UI.Models.ApiRequest;
+using ePizza.UI.Models.ApiResponses;
 using Microsoft.AspNetCore.Mvc;
 using System.Net.Http;
 
@@ -16,16 +17,19 @@ namespace ePizza.UI.Controllers
             _logger = logger;
             _httpClientFactory = httpClientFactory;
         }
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            return View();
+            using var httpClient = _httpClientFactory.CreateClient("ePizzaApiClient");
+            var cartItems = await httpClient.GetFromJsonAsync<ApiResponseModel<GetCartResponseModel>>(
+                $"api/Cart/get-cart-details?CartId={CartId}");
+            return View(cartItems);
         }
         Guid CartId
         {
             get 
             {
                 Guid id;
-                string CartId = Request.Cookies["CArtId"];
+                string CartId = Request.Cookies["CartId"];
                 if(CartId==null)
                 {
                     id= Guid.NewGuid();
@@ -51,7 +55,7 @@ namespace ePizza.UI.Controllers
                 CartId = CartId
             };
             var itemAdded = await httpClient.PostAsJsonAsync<AddToCartRequest>("api/Cart/add-item-to-cart", addCartRequest);
-            return Ok();
+            return Json(new { Count = 1});
 
         }
     }
