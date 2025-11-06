@@ -15,6 +15,7 @@ wwwroot\images\pizza-header.png
 wwwroot\images\pngwing.com.png
 wwwroot\images\red_cake.webp
 wwwroot\images\veggie_pizza.webp
+wwwroot\js\cart.js
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map

@@ -1,10 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\DELL\\Documents\\GitHub\\ePizzaHub\\",
+  "WorkspaceRootPath": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EEB46788-0781-4100-A36B-9E8C8DD27147}|ePizza.UI\\ePizza.UI.csproj|c:\\users\\dell\\documents\\github\\epizzahub\\epizza.ui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{EEB46788-0781-4100-A36B-9E8C8DD27147}|ePizza.UI\\ePizza.UI.csproj|c:\\users\\arunp\\documents\\github\\epizzahub\\epizza.ui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{EEB46788-0781-4100-A36B-9E8C8DD27147}|ePizza.UI\\ePizza.UI.csproj|solutionrelative:epizza.ui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEB46788-0781-4100-A36B-9E8C8DD27147}|ePizza.UI\\ePizza.UI.csproj|c:\\users\\arunp\\documents\\github\\epizzahub\\epizza.ui\\wwwroot\\js\\cart.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{EEB46788-0781-4100-A36B-9E8C8DD27147}|ePizza.UI\\ePizza.UI.csproj|solutionrelative:epizza.ui\\wwwroot\\js\\cart.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEB46788-0781-4100-A36B-9E8C8DD27147}|ePizza.UI\\ePizza.UI.csproj|c:\\users\\arunp\\documents\\github\\epizzahub\\epizza.ui\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEB46788-0781-4100-A36B-9E8C8DD27147}|ePizza.UI\\ePizza.UI.csproj|solutionrelative:epizza.ui\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAFA4783-A712-492D-BB46-EF9B1315E58E}|ePizza.API\\ePizza.API.csproj|c:\\users\\arunp\\documents\\github\\epizzahub\\epizza.api\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAFA4783-A712-492D-BB46-EF9B1315E58E}|ePizza.API\\ePizza.API.csproj|solutionrelative:epizza.api\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEB46788-0781-4100-A36B-9E8C8DD27147}|ePizza.UI\\ePizza.UI.csproj|c:\\users\\arunp\\documents\\github\\epizzahub\\epizza.ui\\models\\apirequest\\addtocartrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEB46788-0781-4100-A36B-9E8C8DD27147}|ePizza.UI\\ePizza.UI.csproj|solutionrelative:epizza.ui\\models\\apirequest\\addtocartrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEB46788-0781-4100-A36B-9E8C8DD27147}|ePizza.UI\\ePizza.UI.csproj|c:\\users\\arunp\\documents\\github\\epizzahub\\epizza.ui\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEB46788-0781-4100-A36B-9E8C8DD27147}|ePizza.UI\\ePizza.UI.csproj|solutionrelative:epizza.ui\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 242,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,27 +42,88 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "ePizza.UI\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\DELL\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "ePizza.UI\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABNAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAC0AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-04T12:52:55.944Z",
+              "WhenOpened": "2025-11-05T20:03:36.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "cart.js",
+              "DocumentMoniker": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\wwwroot\\js\\cart.js",
+              "RelativeDocumentMoniker": "ePizza.UI\\wwwroot\\js\\cart.js",
+              "ToolTip": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\wwwroot\\js\\cart.js",
+              "RelativeToolTip": "ePizza.UI\\wwwroot\\js\\cart.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-11-05T19:43:33.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.API\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "ePizza.API\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.API\\Controllers\\CartController.cs",
+              "RelativeToolTip": "ePizza.API\\Controllers\\CartController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAADwvwkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T17:54:28.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddToCartRequest.cs",
+              "DocumentMoniker": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\Models\\ApiRequest\\AddToCartRequest.cs",
+              "RelativeDocumentMoniker": "ePizza.UI\\Models\\ApiRequest\\AddToCartRequest.cs",
+              "ToolTip": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\Models\\ApiRequest\\AddToCartRequest.cs",
+              "RelativeToolTip": "ePizza.UI\\Models\\ApiRequest\\AddToCartRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T17:52:40.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ePizza.UI\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ePizza.UI\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T17:45:42.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "ePizza.UI\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\Controllers\\CartController.cs",
+              "RelativeToolTip": "ePizza.UI\\Controllers\\CartController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAACgAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T17:40:18.628Z",
               "EditorCaption": ""
             }
           ]
