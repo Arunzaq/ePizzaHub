@@ -17,12 +17,13 @@ namespace ePizza.UI.Controllers
             _logger = logger;
             _httpClientFactory = httpClientFactory;
         }
+        [HttpGet("Index")]
         public async Task<IActionResult> Index()
         {
             using var httpClient = _httpClientFactory.CreateClient("ePizzaApiClient");
             var cartItems = await httpClient.GetFromJsonAsync<ApiResponseModel<GetCartResponseModel>>(
                 $"api/Cart/get-cart-details?CartId={CartId}");
-            return View(cartItems);
+            return View(cartItems.Data);
         }
         Guid CartId
         {
@@ -57,6 +58,13 @@ namespace ePizza.UI.Controllers
             var itemAdded = await httpClient.PostAsJsonAsync<AddToCartRequest>("api/Cart/add-item-to-cart", addCartRequest);
             return Json(new { Count = 1});
 
+        }
+
+        [HttpGet("Checkout")]
+        public IActionResult Checkout()
+        {
+            
+            return View();
         }
     }
 }

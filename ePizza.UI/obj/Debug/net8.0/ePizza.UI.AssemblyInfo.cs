@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ePizza.UI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c532f91b162c23f344c52c4fc2552af78883a7c8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a15e8bf239b6cd6f4d2b7d6b421656f4ef39eb29")]
 [assembly: System.Reflection.AssemblyProductAttribute("ePizza.UI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ePizza.UI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

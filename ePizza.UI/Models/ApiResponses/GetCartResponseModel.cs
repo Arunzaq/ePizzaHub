@@ -20,6 +20,13 @@
         public int Quantity { get; set; }
         public string ItemName { get; set; }
         public string ImageUrl { get; set; }
+        public decimal ItemTotal
+        {
+            get
+            {
+                return Quantity * UnitPrice;
+            }
+        }
     }
     
 }
