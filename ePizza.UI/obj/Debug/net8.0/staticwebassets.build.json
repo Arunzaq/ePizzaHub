@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "/oezAkrYEujpE/78K4bgzTk+sX2hhrNHtJXdsn6BmyQ=",
+  "Hash": "O9AoD/UtZSv/jzCa4+ya8RHXRaP4Lo51ja63ahvTI9M=",
   "Source": "ePizza.UI",
   "BasePath": "_content/ePizza.UI",
   "Mode": "Default",
@@ -430,8 +430,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "37ufnvwp3p",
-      "Integrity": "n9lfQWBGS9ksMNWsUQshDjllbO7+D51cVw1k22EraLw=",
+      "Fingerprint": "6twvailoc8",
+      "Integrity": "2tn06uK681Iq4gwDIUeq4MVooVmq3zEooypQKo5380Y=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\cart.js"
@@ -1761,7 +1761,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Nov 2025 21:30:04 GMT"
+          "Value": "Mon, 10 Nov 2025 20:06:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1806,7 +1806,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Nov 2025 21:30:04 GMT"
+          "Value": "Mon, 10 Nov 2025 20:06:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1851,7 +1851,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Nov 2025 21:30:04 GMT"
+          "Value": "Mon, 10 Nov 2025 20:06:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1888,7 +1888,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Nov 2025 21:30:04 GMT"
+          "Value": "Mon, 10 Nov 2025 20:06:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3215,7 +3215,7 @@
       ]
     },
     {
-      "Route": "js/cart.37ufnvwp3p.js",
+      "Route": "js/cart.6twvailoc8.js",
       "AssetFile": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\wwwroot\\js\\cart.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3225,7 +3225,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "290"
+          "Value": "1518"
         },
         {
           "Name": "Content-Type",
@@ -3233,11 +3233,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"n9lfQWBGS9ksMNWsUQshDjllbO7+D51cVw1k22EraLw=\""
+          "Value": "\"2tn06uK681Iq4gwDIUeq4MVooVmq3zEooypQKo5380Y=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Nov 2025 07:01:54 GMT"
+          "Value": "Mon, 10 Nov 2025 20:26:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3247,7 +3247,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "37ufnvwp3p"
+          "Value": "6twvailoc8"
         },
         {
           "Name": "label",
@@ -3255,7 +3255,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-n9lfQWBGS9ksMNWsUQshDjllbO7+D51cVw1k22EraLw="
+          "Value": "sha256-2tn06uK681Iq4gwDIUeq4MVooVmq3zEooypQKo5380Y="
         }
       ]
     },
@@ -3270,7 +3270,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "290"
+          "Value": "1518"
         },
         {
           "Name": "Content-Type",
@@ -3278,11 +3278,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"n9lfQWBGS9ksMNWsUQshDjllbO7+D51cVw1k22EraLw=\""
+          "Value": "\"2tn06uK681Iq4gwDIUeq4MVooVmq3zEooypQKo5380Y=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Nov 2025 07:01:54 GMT"
+          "Value": "Mon, 10 Nov 2025 20:26:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3292,7 +3292,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-n9lfQWBGS9ksMNWsUQshDjllbO7+D51cVw1k22EraLw="
+          "Value": "sha256-2tn06uK681Iq4gwDIUeq4MVooVmq3zEooypQKo5380Y="
         }
       ]
     },

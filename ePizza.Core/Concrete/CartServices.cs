@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using epizza.Domain.Models;
 using ePizza.Core.Contracts;
+using ePizza.Core.CustomException;
 using ePizza.Core.Mapper;
 using ePizza.Models.Request;
 using ePizza.Models.Response;
@@ -52,6 +53,18 @@ namespace ePizza.Core.Concrete
         public Task<bool> UpdateItemCountAsync(Guid CartId, int ItemId, int NewQty)
         {
             throw new NotImplementedException();
+        }
+
+        public async Task<bool> UpdateItemInCartAsync(Guid cartId, int itemId, int quantity)
+        {
+            var cartExists = await _cartRepository.GetAllAsync(x  => x.Id == cartId);
+            if(!cartExists.Any())
+            {
+                throw new RecordNotFoundException($"Cart withId {cartId} doesnt exists");
+            }
+            int recordsUpdated = await _cartRepository.UpdateItemQuantity(cartId, itemId, quantity);
+            return recordsUpdated > 0;
+           
         }
 
         async Task<bool> ICartServices.AddItemToCartAssync(AddToCartRequest request)

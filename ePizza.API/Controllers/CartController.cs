@@ -50,9 +50,10 @@ namespace ePizza.API.Controllers
 
         [HttpPut]
         [Route("update-item")]
-        public async Task<IActionResult> UpdateItem(Guid CartId, int ItemId, int NewQuatity)
+        public async Task<IActionResult> UpdateItem(UpdateCartItemRequest updateCartItemRequest)
         {
-            var Data = await _cartServices.DeleteItemFromCArtAsync(CartId, ItemId);
+            var Data = await _cartServices.UpdateItemInCartAsync(
+                updateCartItemRequest.CartId,updateCartItemRequest.ItemId,updateCartItemRequest.Quantity);
             return Ok(Data);
         }
 

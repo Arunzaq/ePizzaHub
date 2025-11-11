@@ -59,6 +59,42 @@ namespace ePizza.UI.Controllers
             return Json(new { Count = 1});
 
         }
+        [HttpDelete("DeleteItem/{itemId:int}")]
+        public async Task<IActionResult> DeleteItem(int itemId, int quantity)
+        {
+            using var httpClient = _httpClientFactory.CreateClient("ePizaaApiClient");
+
+
+            AddToCartRequest addCartRequest
+                 = new AddToCartRequest()
+                 {
+                     ItemId = itemId,
+                     Quantity = quantity,
+                     CartId = CartId
+                 };
+
+
+            var itemAdded = await httpClient.PostAsJsonAsync<AddToCartRequest>("api/Cart/add-item-to-cart", addCartRequest);
+
+            // TODO : get cart quanity API  to get no of item
+            return Json(new { Count = 1 });
+
+        }
+
+        [HttpPut("UpdateQuantity/{itemId:int}/{quantity:int}")]
+        public async Task<IActionResult> UpdateQuantity(int itemId, int quantity)
+        {
+            using var httpclient = _httpClientFactory.CreateClient("ePizzaApiClient");
+            var updateCartitems =
+                new
+                {
+                    CartId = CartId,
+                    ItemId = itemId,
+                    Quantity = quantity
+                };
+            var itemAdded = await httpclient.PutAsJsonAsync($"api/Cart/update-item", updateCartitems);
+            return Json(new { Count = 1 });
+        }
 
         [HttpGet("Checkout")]
         public IActionResult Checkout()

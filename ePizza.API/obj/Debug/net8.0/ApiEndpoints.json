@@ -98,19 +98,9 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "CartId",
-        "Type": "System.Guid",
-        "IsRequired": false
-      },
-      {
-        "Name": "ItemId",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "NewQuatity",
-        "Type": "System.Int32",
-        "IsRequired": false
+        "Name": "updateCartItemRequest",
+        "Type": "ePizza.Models.Request.UpdateCartItemRequest",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []

@@ -15,6 +15,7 @@ namespace ePizza.Core.Contracts
         Task<bool> AddItemToCartAssync(AddToCartRequest request);
         Task<bool> DeleteItemFromCArtAsync(Guid CartId,int ItemId);
         Task<bool> UpdateItemCountAsync(Guid CartId, int ItemId,int NewQty);
+        Task<bool> UpdateItemInCartAsync(Guid cartId,int itemId,int quantity);
         Task<int> GetitemCount(Guid cartId);
     }
 }

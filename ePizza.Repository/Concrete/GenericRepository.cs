@@ -1,8 +1,10 @@
 ﻿using epizza.Domain.Models;
 using ePizza.Repository.Contracts;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -33,6 +35,18 @@ namespace ePizza.Repository.Concrete
         public IEnumerable<T> GetAll()
         {
             return _dbContext.Set<T>().ToList();
+        }
+
+        public async Task<IEnumerable<T>> GetAllAsync(Expression<Func<T, bool>> filter = null)
+        {
+            IQueryable<T> query = _dbContext.Set<T>();
+
+            if (filter != null)
+            {
+                query = query.Where(filter);
+            }
+
+            return await query.ToListAsync();
         }
 
         public void Update(T entity)

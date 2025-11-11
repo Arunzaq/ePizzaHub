@@ -2,7 +2,7 @@
 
 @model GetCartResponseModel
 @{
-    ViewData["Title"] = "CArt Details";
+    ViewData["Title"] = "Cart Details";
 }
 <div>
     @if(Model != null && Model.Items !=null)
@@ -21,6 +21,7 @@
                                     <th>Price</th>
                                     <th>Quantity</th>
                                     <th>Total</th>
+                                    <th>Action</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -32,8 +33,23 @@
                                         <div>@Item.ItemName</div>
                                     </td>
                                     <td>@Item.UnitPrice</td>
-                                        <td>@Item.Quantity</td>
+                                        <td>
+                                            <div class="def-number-input number-input safari_only mb-0 w-100">
+                                                <div class="input-group mb-3">
+                                                    <div class="input-group-prepend">
+                                                        <button onclick="updateQuantity('@Item.ItemId','@Item.Quantity',@Item.Quantity -1)" class="btn btn-outline-secondary" type="button">-</button>
+                                                    </div>
+                                                    <input class="form-control sm-control" size="2" min="0" name="quantity" value="@Item.Quantity" readonly />
+                                                    <div class="input-group-append">
+                                                        <button onclick="updateQuantity('@Item.ItemId','@Item.Quantity',@Item.Quantity +1)" class="btn btn-outline-secondary" type="button">+</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
                                     <td>@Item.ItemTotal</td>
+                                        <td>
+                                            <a href="javascript:void(0);" onclick="deleteItem('@Item.ItemId')" class="btn btn-danger">Remove</a>
+                                        </td>
                                 </tr>
                                 }
                             </tbody>
@@ -81,4 +97,7 @@
     </div>
     }
 </div>
+@section Scripts {
+    <script src="~/js/cart.js" asp-append-version="true"></script>
+}
 
