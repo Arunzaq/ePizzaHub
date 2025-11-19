@@ -1,5 +1,6 @@
 ﻿using ePizza.UI.Models.ApiRequest;
 using ePizza.UI.Models.ApiResponses;
+using ePizza.UI.Models.ViewModel;
 using Microsoft.AspNetCore.Mvc;
 using System.Net.Http;
 
@@ -100,6 +101,13 @@ namespace ePizza.UI.Controllers
         public IActionResult Checkout()
         {
             
+            return View();
+        }
+
+        [HttpPost("Checkout")]
+        public IActionResult Checkout(AddressViewModel addressViewModel)
+        {
+
             return View();
         }
     }

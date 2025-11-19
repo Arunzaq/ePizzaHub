@@ -57,5 +57,14 @@ namespace ePizza.API.Controllers
             return Ok(Data);
         }
 
+        [HttpPost]
+        [Route("place-order")]
+        public async Task<IActionResult> PlaceOrder(UpdateCartItemRequest updateCartItemRequest)
+        {
+            var Data = await _cartServices.UpdateItemInCartAsync(
+                updateCartItemRequest.CartId, updateCartItemRequest.ItemId, updateCartItemRequest.Quantity);
+            return Ok(Data);
+        }
+
     }
 }

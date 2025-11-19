@@ -1,4 +1,4 @@
-﻿using ePizza.UI.Models;
+﻿using ePizza.UI.Models.ViewModel;
 using Microsoft.AspNetCore.Mvc.Razor;
 using System.Security.Claims;
 

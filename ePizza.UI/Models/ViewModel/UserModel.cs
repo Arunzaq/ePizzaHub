@@ -1,4 +1,4 @@
-﻿namespace ePizza.UI.Models
+﻿namespace ePizza.UI.Models.ViewModel
 {
     public class UserModel
     {

@@ -91,6 +91,22 @@
   },
   {
     "ContainingType": "ePizza.API.Controllers.CartController",
+    "Method": "PlaceOrder",
+    "RelativePath": "api/Cart/place-order",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateCartItemRequest",
+        "Type": "ePizza.Models.Request.UpdateCartItemRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ePizza.API.Controllers.CartController",
     "Method": "UpdateItem",
     "RelativePath": "api/Cart/update-item",
     "HttpMethod": "PUT",
@@ -113,6 +129,22 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ePizza.API.Controllers.PaymentController",
+    "Method": "MakePayment",
+    "RelativePath": "api/Payment",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "makePaymentRequest",
+        "Type": "ePizza.Models.Request.MakePaymentRequest",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {

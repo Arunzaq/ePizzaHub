@@ -1,5 +1,5 @@
-﻿using ePizza.UI.Models;
-using ePizza.UI.Models.ApiResponses;
+﻿using ePizza.UI.Models.ApiResponses;
+using ePizza.UI.Models.ViewModel;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authorization;

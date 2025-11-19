@@ -20,6 +20,8 @@ namespace ePizza.API.Utils
             services.AddTransient<IItemServices, ItemServices>();
             services.AddTransient<ICartRepository, CartRepository>();
             services.AddTransient<ICartServices, CartServices>();
+            services.AddTransient<IPaymentServices, PaymentServics>();
+            services.AddTransient<IOrderServices, OrderServices>();
 
             return services;
         }
@@ -29,6 +31,8 @@ namespace ePizza.API.Utils
             services.AddScoped<IUserRepository, UserRepository>();
             services.AddScoped<IRolesRepository, RoleRepository>();
             services.AddScoped<IItemRepository, ItemRepository>();
+            services.AddScoped<IPaymentRepository, PaymentRepository>();
+            services.AddScoped<IOrderRepository, OrderRepository>();
 
             return services;
         }
