@@ -12,6 +12,14 @@ namespace ePizza.Repository.Concrete
     {
         public OrderRepository(epizzaHubDBContext dbContext) : base(dbContext)
         {
+
+        }
+        public async Task<bool> AddNewOrder(Order order)
+        {
+            _dbContext.Orders.Add(order);
+            int rowsAffected = await _dbContext.SaveChangesAsync();
+
+            return rowsAffected > 0;
         }
     }
 }

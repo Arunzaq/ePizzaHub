@@ -13,7 +13,9 @@ namespace ePizza.Core.Mapper
     {
         public PaymentMappingExtension() 
         {
-            CreateMap<MakePaymentRequest, PaymentDetail>().ReverseMap();
+            CreateMap<MakePaymentRequest, PaymentDetail>();
+            CreateMap<OrderRequest, Order>();
+            CreateMap<OrderItems, OrderItem>();
         }
         
     }

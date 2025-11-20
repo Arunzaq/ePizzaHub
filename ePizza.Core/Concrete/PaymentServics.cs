@@ -15,20 +15,36 @@ namespace ePizza.Core.Concrete
     {
         private readonly IPaymentRepository _paymentRepository;
         private readonly IMapper _mapper;
+        private readonly IOrderRepository _orderRepository;
 
-        public PaymentServics(IPaymentRepository paymentRepository, IMapper mapper)
+        public PaymentServics(IPaymentRepository paymentRepository, IMapper mapper, IOrderRepository orderRepository)
         {
+            _orderRepository = orderRepository;
             _paymentRepository = paymentRepository;
             _mapper = mapper;
         }
 
-        public async Task<bool> MakePaymentAsync(MakePaymentRequest paymentRequest)
+        public string MakePaymentAsync(MakePaymentRequest paymentRequest)
         {
             var paymentModel = _mapper.Map<PaymentDetail>(paymentRequest);
-            paymentModel.Id=Guid.NewGuid().ToString();
-            _paymentRepository.Add(paymentModel);
-            int rowsAffected = _paymentRepository.Commitchanges();
-            return await Task.FromResult(rowsAffected > 0);
+            if (paymentRequest.OrderRequest is not null
+                && paymentRequest.OrderRequest.OrderItems.Count > 0)
+            { 
+            var orderDetails=MapOrderDetails(paymentRequest,paymentModel);
+                _paymentRepository.Add(paymentModel);
+                _orderRepository.Add(orderDetails);
+                int rowsAffected = _paymentRepository.Commitchanges();
+            }
+            return string.Empty;
+        }
+
+        private Order MapOrderDetails(MakePaymentRequest paymentRequest, PaymentDetail paymentmodel)
+        {
+            var orderDetails = _mapper.Map<Order>(paymentRequest.OrderRequest);
+            orderDetails.PaymentId=paymentmodel.Id;
+            orderDetails.UserId=paymentmodel.UserId;
+            orderDetails.OrderItems.ToList().ForEach(x=>x.OrderId=orderDetails.Id);
+            return orderDetails;
         }
     }
 }

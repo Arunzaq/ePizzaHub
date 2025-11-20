@@ -8,6 +8,7 @@ namespace ePizza.Models.Request
 {
     public class MakePaymentRequest
     {
+        public string Id { get; set; }
         public string TransactionId { get; set; }
 
         public decimal Tax { get; set; }
@@ -27,5 +28,6 @@ namespace ePizza.Models.Request
         public DateTime CreatedDate { get; set; }
 
         public int UserId { get; set; }
+        public OrderRequest OrderRequest { get; set; }
     }
 }

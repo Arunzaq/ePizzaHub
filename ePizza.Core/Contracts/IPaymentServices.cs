@@ -9,6 +9,6 @@ namespace ePizza.Core.Contracts
 {
     public interface IPaymentServices
     {
-        Task<bool> MakePaymentAsync(MakePaymentRequest PaymentRequest);
+        string MakePaymentAsync(MakePaymentRequest PaymentRequest);
     }
 }

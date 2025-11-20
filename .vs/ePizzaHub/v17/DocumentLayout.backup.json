@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EEB46788-0781-4100-A36B-9E8C8DD27147}|ePizza.UI\\ePizza.UI.csproj|c:\\users\\arunp\\documents\\github\\epizzahub\\epizza.ui\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEB46788-0781-4100-A36B-9E8C8DD27147}|ePizza.UI\\ePizza.UI.csproj|solutionrelative:epizza.ui\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5FC476AA-857E-4F79-97C7-2CB6D7418DBC}|ePizza.Core\\ePizza.Core.csproj|c:\\users\\arunp\\documents\\github\\epizzahub\\epizza.core\\concrete\\orderservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5FC476AA-857E-4F79-97C7-2CB6D7418DBC}|ePizza.Core\\ePizza.Core.csproj|solutionrelative:epizza.core\\concrete\\orderservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -30,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 242,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,7 +50,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "ePizza.UI\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\Controllers\\CartController.cs",
+              "RelativeToolTip": "ePizza.UI\\Controllers\\CartController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAADwvykAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T03:16:57.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "DependancyRegistration.cs",
               "DocumentMoniker": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.API\\Utils\\DependancyRegistration.cs",
               "RelativeDocumentMoniker": "ePizza.API\\Utils\\DependancyRegistration.cs",
@@ -59,7 +76,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "OrderRepository.cs",
               "DocumentMoniker": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.Repository\\Concrete\\OrderRepository.cs",
               "RelativeDocumentMoniker": "ePizza.Repository\\Concrete\\OrderRepository.cs",
@@ -72,7 +89,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "IOrderRepository.cs",
               "DocumentMoniker": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.Repository\\Contracts\\IOrderRepository.cs",
               "RelativeDocumentMoniker": "ePizza.Repository\\Contracts\\IOrderRepository.cs",
@@ -85,7 +102,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "IOrderServices.cs",
               "DocumentMoniker": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.Core\\Contracts\\IOrderServices.cs",
               "RelativeDocumentMoniker": "ePizza.Core\\Contracts\\IOrderServices.cs",
@@ -98,7 +115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "OrderServices.cs",
               "DocumentMoniker": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.Core\\Concrete\\OrderServices.cs",
               "RelativeDocumentMoniker": "ePizza.Core\\Concrete\\OrderServices.cs",
