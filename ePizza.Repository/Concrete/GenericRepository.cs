@@ -49,6 +49,18 @@ namespace ePizza.Repository.Concrete
             return await query.ToListAsync();
         }
 
+        public async Task<T> GetSingleItem(Expression<Func<T, bool>> filter = null)
+        {
+            IQueryable<T> query = _dbContext.Set<T>();
+
+            if (filter != null)
+            {
+                query = query.Where(filter);
+            }
+
+            return await query.FirstOrDefaultAsync();
+        }
+
         public void Update(T entity)
         {
             _dbContext.Set<T>().Update(entity);

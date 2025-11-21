@@ -1,5 +1,6 @@
 ﻿using ePizza.Core.Contracts;
 using ePizza.Models.Request;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -7,6 +8,7 @@ namespace ePizza.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class PaymentController : ControllerBase
     {
         private readonly IPaymentServices _paymentServices;
@@ -21,7 +23,7 @@ namespace ePizza.API.Controllers
         {
             if (ModelState.IsValid)
             {
-                var result = await _paymentServices.MakePaymentAsync(makePaymentRequest);
+                var result =  _paymentServices.MakePaymentAsync(makePaymentRequest);
                 return Ok();
             }
             return BadRequest("Please check Values");

@@ -1582,6 +1582,18 @@
           "lib/netstandard2.0/NuGet.Versioning.dll": {}
         }
       },
+      "RazorPay.Core/1.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/RazorPay Core.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/RazorPay Core.dll": {}
+        }
+      },
       "System.CodeDom/5.0.0": {
         "type": "package",
         "compile": {
@@ -5025,6 +5037,19 @@
         "nuget.versioning.nuspec"
       ]
     },
+    "RazorPay.Core/1.0.2": {
+      "sha512": "vRyVsundeyWrQT7L4IyCHilcEwNpibm78vVp3HD3xpuFWhjlZ7wMxDOUdxcjgdeJWbXa52DSTG7OyH2LUuE0lA==",
+      "type": "package",
+      "path": "razorpay.core/1.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/netcoreapp3.1/RazorPay Core.dll",
+        "razorpay.core.1.0.2.nupkg.sha512",
+        "razorpay.core.nuspec"
+      ]
+    },
     "System.CodeDom/5.0.0": {
       "sha512": "JPJArwA1kdj8qDAkY2XGjSWoYnqiM7q/3yRNkt6n28Mnn95MuEGkZXUbPBf7qc3IjwrGY5ttQon7yqHZyQJmOQ==",
       "type": "package",
@@ -5854,6 +5879,7 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 8.0.7",
+      "RazorPay.Core >= 1.0.2",
       "System.IdentityModel.Tokens.Jwt >= 8.14.0"
     ]
   },
@@ -5912,6 +5938,10 @@
             "target": "Package",
             "version": "[8.0.7, )"
           },
+          "RazorPay.Core": {
+            "target": "Package",
+            "version": "[1.0.2, )"
+          },
           "System.IdentityModel.Tokens.Jwt": {
             "target": "Package",
             "version": "[8.14.0, )"
@@ -5939,13 +5969,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1900",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json."
-    }
-  ]
+  }
 }

@@ -1,6 +1,6 @@
+using ePizza.UI.Helpers.TokenHelpers;
+using ePizza.UI.RazorPay;
 using Microsoft.AspNetCore.Authentication.Cookies;
-using Microsoft.CodeAnalysis.Options;
-using Microsoft.Extensions.Options;
 
 namespace ePizza.UI
 {
@@ -21,13 +21,19 @@ namespace ePizza.UI
                 );
 
             builder.Services.AddAuthorization();
+            builder.Services.AddHttpContextAccessor();
+
+            builder.Services.AddTransient<ITokenServices, TokenServices>();
+            builder.Services.AddTransient<IRazorPayService , RazorPayService>();
+            builder.Services.AddTransient<TokenHandler>();
 
             builder.Services.AddHttpClient("ePizzaApiClient", Options =>
             {
                 Options.BaseAddress = new Uri(builder.Configuration["EpizzaApi:BaseAddress"]!);
                 Options.DefaultRequestHeaders.Add("Accept", "application/json");
 
-            });
+            })
+            .AddHttpMessageHandler<TokenHandler>();
 
             var app = builder.Build();
 

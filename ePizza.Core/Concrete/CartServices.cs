@@ -50,6 +50,17 @@ namespace ePizza.Core.Concrete
             return await _cartRepository.GetCartItemsQuantity(cartId);
         }
 
+        public async Task<int> UpdateCartUser(Guid cartId, int userId)
+        {
+            var cartDetails = await _cartRepository.GetSingleItem(x => x.Id == cartId);
+
+            if (cartDetails == null)
+                throw new Exception("cart doesnt exists");
+
+            cartDetails.UserId = userId;
+            return _cartRepository.Commitchanges();
+        }
+
         public Task<bool> UpdateItemCountAsync(Guid CartId, int ItemId, int NewQty)
         {
             throw new NotImplementedException();

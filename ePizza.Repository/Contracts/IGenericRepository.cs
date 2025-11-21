@@ -13,6 +13,7 @@ namespace ePizza.Repository.Contracts
         void Add(T entity);
         int Commitchanges();
         Task<IEnumerable<T>> GetAllAsync(Expression<Func<T, bool>> filter = null);
+        Task <T> GetSingleItem(Expression<Func<T, bool>> filter = null);
         IEnumerable<T> GetAll();
         void Update(T entity);
     }

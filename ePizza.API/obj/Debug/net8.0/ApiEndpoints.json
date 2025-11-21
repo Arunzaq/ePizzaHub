@@ -107,6 +107,22 @@
   },
   {
     "ContainingType": "ePizza.API.Controllers.CartController",
+    "Method": "UpdateCartUser",
+    "RelativePath": "api/Cart/update-cart_user",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateCartUserRequest",
+        "Type": "ePizza.Models.Request.UpdateCartUserRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ePizza.API.Controllers.CartController",
     "Method": "UpdateItem",
     "RelativePath": "api/Cart/update-item",
     "HttpMethod": "PUT",

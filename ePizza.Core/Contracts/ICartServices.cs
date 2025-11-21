@@ -17,5 +17,6 @@ namespace ePizza.Core.Contracts
         Task<bool> UpdateItemCountAsync(Guid CartId, int ItemId,int NewQty);
         Task<bool> UpdateItemInCartAsync(Guid cartId,int itemId,int quantity);
         Task<int> GetitemCount(Guid cartId);
+        Task<int> UpdateCartUser(Guid cartId, int userId);
     }
 }

@@ -1,13 +1,15 @@
-﻿using ePizza.UI.Models.ApiRequest;
+﻿using ePizza.UI.Helpers;
+using ePizza.UI.Models.ApiRequest;
 using ePizza.UI.Models.ApiResponses;
 using ePizza.UI.Models.ViewModel;
 using Microsoft.AspNetCore.Mvc;
 using System.Net.Http;
+using System.Text.Json;
 
 namespace ePizza.UI.Controllers
 {
     [Route("Cart")]
-    public class CartController : Controller
+    public class CartController : BaseController
     {
         
 
@@ -105,8 +107,29 @@ namespace ePizza.UI.Controllers
         }
 
         [HttpPost("Checkout")]
-        public IActionResult Checkout(AddressViewModel addressViewModel)
+        public async Task <IActionResult> Checkout(AddressViewModel addressViewModel)
         {
+            if (ModelState.IsValid && CurrentUser is not null)
+            { 
+            using var httpclient = _httpClientFactory.CreateClient("ePizzaApiClient");
+                var cart = await httpclient.GetFromJsonAsync<ApiResponseModel<GetCartResponseModel>>(
+                    $"api/Cart/get-cart-details?cartId={CartId}");
+                if (cart.Success)
+                {
+                    var updateUserRequest
+                            = new
+                            {
+                                CartId = CartId,
+                                UserId = CurrentUser.UserId,
+                            };
+                    var response= await httpclient.PutAsJsonAsync($"/api/Cart/update-cart_user",updateUserRequest);
+                    response.EnsureSuccessStatusCode();
+
+                    TempData.Add("Address", JsonSerializer.Serialize(addressViewModel));
+                    TempData.Add("CartId",JsonSerializer.Serialize(cart));
+                }
+                return RedirectToAction("Index" ,"Payment");
+            }
 
             return View();
         }

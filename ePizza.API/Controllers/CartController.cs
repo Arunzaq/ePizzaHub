@@ -66,5 +66,13 @@ namespace ePizza.API.Controllers
             return Ok(Data);
         }
 
+        [HttpPut]
+        [Route("update-cart_user")]
+        public async Task<IActionResult> UpdateCartUser(UpdateCartUserRequest updateCartUserRequest)
+        {
+            var data = _cartServices.UpdateCartUser(updateCartUserRequest.CartId, updateCartUserRequest.UserId);
+            return Ok(data);
+        }
+
     }
 }

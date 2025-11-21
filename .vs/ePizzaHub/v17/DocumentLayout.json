@@ -3,36 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F6FDF016-E7DB-4BB0-B37E-D528748F3D4A}|ePizza.Repository\\ePizza.Repository.csproj|c:\\users\\arunp\\documents\\github\\epizzahub\\epizza.repository\\contracts\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6FDF016-E7DB-4BB0-B37E-D528748F3D4A}|ePizza.Repository\\ePizza.Repository.csproj|solutionrelative:epizza.repository\\contracts\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CAFA4783-A712-492D-BB46-EF9B1315E58E}|ePizza.API\\ePizza.API.csproj|c:\\users\\arunp\\documents\\github\\epizzahub\\epizza.api\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAFA4783-A712-492D-BB46-EF9B1315E58E}|ePizza.API\\ePizza.API.csproj|solutionrelative:epizza.api\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6FDF016-E7DB-4BB0-B37E-D528748F3D4A}|ePizza.Repository\\ePizza.Repository.csproj|c:\\users\\arunp\\documents\\github\\epizzahub\\epizza.repository\\concrete\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6FDF016-E7DB-4BB0-B37E-D528748F3D4A}|ePizza.Repository\\ePizza.Repository.csproj|solutionrelative:epizza.repository\\concrete\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EEB46788-0781-4100-A36B-9E8C8DD27147}|ePizza.UI\\ePizza.UI.csproj|c:\\users\\arunp\\documents\\github\\epizzahub\\epizza.ui\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEB46788-0781-4100-A36B-9E8C8DD27147}|ePizza.UI\\ePizza.UI.csproj|solutionrelative:epizza.ui\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6FDF016-E7DB-4BB0-B37E-D528748F3D4A}|ePizza.Repository\\ePizza.Repository.csproj|c:\\users\\arunp\\documents\\github\\epizzahub\\epizza.repository\\concrete\\paymentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6FDF016-E7DB-4BB0-B37E-D528748F3D4A}|ePizza.Repository\\ePizza.Repository.csproj|solutionrelative:epizza.repository\\concrete\\paymentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EEB46788-0781-4100-A36B-9E8C8DD27147}|ePizza.UI\\ePizza.UI.csproj|c:\\users\\arunp\\documents\\github\\epizzahub\\epizza.ui\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEB46788-0781-4100-A36B-9E8C8DD27147}|ePizza.UI\\ePizza.UI.csproj|solutionrelative:epizza.ui\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5FC476AA-857E-4F79-97C7-2CB6D7418DBC}|ePizza.Core\\ePizza.Core.csproj|c:\\users\\arunp\\documents\\github\\epizzahub\\epizza.core\\concrete\\paymentservics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FC476AA-857E-4F79-97C7-2CB6D7418DBC}|ePizza.Core\\ePizza.Core.csproj|solutionrelative:epizza.core\\concrete\\paymentservics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EEB46788-0781-4100-A36B-9E8C8DD27147}|ePizza.UI\\ePizza.UI.csproj|c:\\users\\arunp\\documents\\github\\epizzahub\\epizza.ui\\helpers\\tempdataextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEB46788-0781-4100-A36B-9E8C8DD27147}|ePizza.UI\\ePizza.UI.csproj|solutionrelative:epizza.ui\\helpers\\tempdataextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5FC476AA-857E-4F79-97C7-2CB6D7418DBC}|ePizza.Core\\ePizza.Core.csproj|c:\\users\\arunp\\documents\\github\\epizzahub\\epizza.core\\contracts\\ipaymentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FC476AA-857E-4F79-97C7-2CB6D7418DBC}|ePizza.Core\\ePizza.Core.csproj|solutionrelative:epizza.core\\contracts\\ipaymentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EEB46788-0781-4100-A36B-9E8C8DD27147}|ePizza.UI\\ePizza.UI.csproj|c:\\users\\arunp\\documents\\github\\epizzahub\\epizza.ui\\helpers\\tokenhelpers\\tokenhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEB46788-0781-4100-A36B-9E8C8DD27147}|ePizza.UI\\ePizza.UI.csproj|solutionrelative:epizza.ui\\helpers\\tokenhelpers\\tokenhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC188A12-4329-4699-BA34-65C7F1116371}|ePizza.Models\\ePizza.Models.csproj|c:\\users\\arunp\\documents\\github\\epizzahub\\epizza.models\\request\\makepaymentrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC188A12-4329-4699-BA34-65C7F1116371}|ePizza.Models\\ePizza.Models.csproj|solutionrelative:epizza.models\\request\\makepaymentrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5FC476AA-857E-4F79-97C7-2CB6D7418DBC}|ePizza.Core\\ePizza.Core.csproj|c:\\users\\arunp\\documents\\github\\epizzahub\\epizza.core\\utils\\tokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FC476AA-857E-4F79-97C7-2CB6D7418DBC}|ePizza.Core\\ePizza.Core.csproj|solutionrelative:epizza.core\\utils\\tokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CAFA4783-A712-492D-BB46-EF9B1315E58E}|ePizza.API\\ePizza.API.csproj|c:\\users\\arunp\\documents\\github\\epizzahub\\epizza.api\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CAFA4783-A712-492D-BB46-EF9B1315E58E}|ePizza.API\\ePizza.API.csproj|solutionrelative:epizza.api\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC188A12-4329-4699-BA34-65C7F1116371}|ePizza.Models\\ePizza.Models.csproj|c:\\users\\arunp\\documents\\github\\epizzahub\\epizza.models\\request\\orderrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC188A12-4329-4699-BA34-65C7F1116371}|ePizza.Models\\ePizza.Models.csproj|solutionrelative:epizza.models\\request\\orderrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BC188A12-4329-4699-BA34-65C7F1116371}|ePizza.Models\\ePizza.Models.csproj|c:\\users\\arunp\\documents\\github\\epizzahub\\epizza.models\\response\\userresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC188A12-4329-4699-BA34-65C7F1116371}|ePizza.Models\\ePizza.Models.csproj|solutionrelative:epizza.models\\response\\userresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,99 +38,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 242,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "IOrderRepository.cs",
-              "DocumentMoniker": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.Repository\\Contracts\\IOrderRepository.cs",
-              "RelativeDocumentMoniker": "ePizza.Repository\\Contracts\\IOrderRepository.cs",
-              "ToolTip": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.Repository\\Contracts\\IOrderRepository.cs",
-              "RelativeToolTip": "ePizza.Repository\\Contracts\\IOrderRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T03:29:51.507Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "OrderRepository.cs",
-              "DocumentMoniker": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.Repository\\Concrete\\OrderRepository.cs",
-              "RelativeDocumentMoniker": "ePizza.Repository\\Concrete\\OrderRepository.cs",
-              "ToolTip": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.Repository\\Concrete\\OrderRepository.cs",
-              "RelativeToolTip": "ePizza.Repository\\Concrete\\OrderRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T03:29:01.889Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PaymentRepository.cs",
-              "DocumentMoniker": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.Repository\\Concrete\\PaymentRepository.cs",
-              "RelativeDocumentMoniker": "ePizza.Repository\\Concrete\\PaymentRepository.cs",
-              "ToolTip": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.Repository\\Concrete\\PaymentRepository.cs",
-              "RelativeToolTip": "ePizza.Repository\\Concrete\\PaymentRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T03:28:56.132Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IPaymentServices.cs",
-              "DocumentMoniker": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.Core\\Contracts\\IPaymentServices.cs",
-              "RelativeDocumentMoniker": "ePizza.Core\\Contracts\\IPaymentServices.cs",
-              "ToolTip": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.Core\\Contracts\\IPaymentServices.cs",
-              "RelativeToolTip": "ePizza.Core\\Contracts\\IPaymentServices.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T02:57:05.992Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PaymentServics.cs",
-              "DocumentMoniker": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.Core\\Concrete\\PaymentServics.cs",
-              "RelativeDocumentMoniker": "ePizza.Core\\Concrete\\PaymentServics.cs",
-              "ToolTip": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.Core\\Concrete\\PaymentServics.cs",
-              "RelativeToolTip": "ePizza.Core\\Concrete\\PaymentServics.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T02:57:48.76Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "OrderRequest.cs",
-              "DocumentMoniker": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.Models\\Request\\OrderRequest.cs",
-              "RelativeDocumentMoniker": "ePizza.Models\\Request\\OrderRequest.cs",
-              "ToolTip": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.Models\\Request\\OrderRequest.cs",
-              "RelativeToolTip": "ePizza.Models\\Request\\OrderRequest.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAowCIAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T02:48:38.456Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MakePaymentRequest.cs",
-              "DocumentMoniker": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.Models\\Request\\MakePaymentRequest.cs",
-              "RelativeDocumentMoniker": "ePizza.Models\\Request\\MakePaymentRequest.cs",
-              "ToolTip": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.Models\\Request\\MakePaymentRequest.cs",
-              "RelativeToolTip": "ePizza.Models\\Request\\MakePaymentRequest.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAABUAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T18:47:16.188Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
@@ -149,15 +54,93 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "PaymentController.cs",
-              "DocumentMoniker": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.API\\Controllers\\PaymentController.cs",
-              "RelativeDocumentMoniker": "ePizza.API\\Controllers\\PaymentController.cs",
-              "ToolTip": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.API\\Controllers\\PaymentController.cs",
-              "RelativeToolTip": "ePizza.API\\Controllers\\PaymentController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABEAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\Controllers\\PaymentController.cs",
+              "RelativeDocumentMoniker": "ePizza.UI\\Controllers\\PaymentController.cs",
+              "ToolTip": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\Controllers\\PaymentController.cs",
+              "RelativeToolTip": "ePizza.UI\\Controllers\\PaymentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T18:46:19.987Z",
+              "WhenOpened": "2025-11-21T21:20:09.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TempDataExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\Helpers\\TempDataExtensions.cs",
+              "RelativeDocumentMoniker": "ePizza.UI\\Helpers\\TempDataExtensions.cs",
+              "ToolTip": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\Helpers\\TempDataExtensions.cs",
+              "RelativeToolTip": "ePizza.UI\\Helpers\\TempDataExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T20:49:10.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserResponseModel.cs",
+              "DocumentMoniker": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.Models\\Response\\UserResponseModel.cs",
+              "RelativeDocumentMoniker": "ePizza.Models\\Response\\UserResponseModel.cs",
+              "ToolTip": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.Models\\Response\\UserResponseModel.cs",
+              "RelativeToolTip": "ePizza.Models\\Response\\UserResponseModel.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAwwBwAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T19:08:33.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TokenGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.Core\\Utils\\TokenGenerator.cs",
+              "RelativeDocumentMoniker": "ePizza.Core\\Utils\\TokenGenerator.cs",
+              "ToolTip": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.Core\\Utils\\TokenGenerator.cs",
+              "RelativeToolTip": "ePizza.Core\\Utils\\TokenGenerator.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAkwCIAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T19:07:34.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.API\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "ePizza.API\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.API\\Controllers\\CartController.cs",
+              "RelativeToolTip": "ePizza.API\\Controllers\\CartController.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAAADcAAABqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T17:26:29.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "ePizza.UI\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\Controllers\\CartController.cs",
+              "RelativeToolTip": "ePizza.UI\\Controllers\\CartController.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAAAHQAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T17:03:34.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TokenHandler.cs",
+              "DocumentMoniker": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\Helpers\\TokenHelpers\\TokenHandler.cs",
+              "RelativeDocumentMoniker": "ePizza.UI\\Helpers\\TokenHelpers\\TokenHandler.cs",
+              "ToolTip": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\Helpers\\TokenHelpers\\TokenHandler.cs",
+              "RelativeToolTip": "ePizza.UI\\Helpers\\TokenHelpers\\TokenHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T19:12:37.081Z",
               "EditorCaption": ""
             }
           ]

@@ -32,6 +32,7 @@ namespace ePizza.Core.Utils
                 Subject = new System.Security.Claims.ClaimsIdentity([
                     new Claim(ClaimTypes.Name,userResponse.Name),
                     new Claim(ClaimTypes.Email,userResponse.Email),
+                    new Claim("UserId",userResponse.UserId.ToString()),
                     new Claim("IsAdmin",userResponse.Roles.Any(x => x.Equals("Admin")).ToString()),
                     new Claim("Roles",JsonSerializer.Serialize(userResponse.Roles))
                     ]),

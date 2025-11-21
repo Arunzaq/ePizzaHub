@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "YwL7HScQI7w=",
+  "dgSpecHash": "dOi+dBiKhCg=",
   "success": true,
   "projectFilePath": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.UI\\ePizza.UI.csproj",
   "expectedPackageFiles": [
@@ -99,6 +99,7 @@
     "C:\\Users\\arunp\\.nuget\\packages\\nuget.projectmodel\\6.11.0\\nuget.projectmodel.6.11.0.nupkg.sha512",
     "C:\\Users\\arunp\\.nuget\\packages\\nuget.protocol\\6.11.0\\nuget.protocol.6.11.0.nupkg.sha512",
     "C:\\Users\\arunp\\.nuget\\packages\\nuget.versioning\\6.11.0\\nuget.versioning.6.11.0.nupkg.sha512",
+    "C:\\Users\\arunp\\.nuget\\packages\\razorpay.core\\1.0.2\\razorpay.core.1.0.2.nupkg.sha512",
     "C:\\Users\\arunp\\.nuget\\packages\\system.codedom\\5.0.0\\system.codedom.5.0.0.nupkg.sha512",
     "C:\\Users\\arunp\\.nuget\\packages\\system.collections.immutable\\7.0.0\\system.collections.immutable.7.0.0.nupkg.sha512",
     "C:\\Users\\arunp\\.nuget\\packages\\system.composition\\7.0.0\\system.composition.7.0.0.nupkg.sha512",
@@ -127,12 +128,5 @@
     "C:\\Users\\arunp\\.nuget\\packages\\system.threading.tasks.dataflow\\7.0.0\\system.threading.tasks.dataflow.7.0.0.nupkg.sha512",
     "C:\\Users\\arunp\\.nuget\\packages\\system.windows.extensions\\7.0.0\\system.windows.extensions.7.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1900",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json."
-    }
-  ]
+  "logs": []
 }

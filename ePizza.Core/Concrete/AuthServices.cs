@@ -33,6 +33,7 @@ namespace ePizza.Core.Concrete
                     {
                         Email = username,
                         Name = userDetails.Name,
+                        UserId= userDetails.Id,
                         Roles = userDetails.Roles.Select(x => x.Name).ToList()
                     };
                 }

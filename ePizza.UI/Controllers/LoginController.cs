@@ -1,4 +1,5 @@
-﻿using ePizza.UI.Models.ApiResponses;
+﻿using ePizza.UI.Helpers.TokenHelpers;
+using ePizza.UI.Models.ApiResponses;
 using ePizza.UI.Models.ViewModel;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
@@ -12,10 +13,12 @@ namespace ePizza.UI.Controllers
     public class LoginController : Controller
     {
         private readonly IHttpClientFactory _httpClientFactory;
+        private readonly ITokenServices _tokenServices;
 
-        public LoginController(IHttpClientFactory httpClientFactory) 
+        public LoginController(IHttpClientFactory httpClientFactory, ITokenServices tokenServices) 
         {
             _httpClientFactory = httpClientFactory;
+            _tokenServices = tokenServices;
         }
 
         [HttpGet]
@@ -37,6 +40,7 @@ namespace ePizza.UI.Controllers
                 if (userResponse.Success)
                 {
                     var accessToken=userResponse.Data.AccessToken;
+                    _tokenServices.SetToken(accessToken);
                     var TokenHandler = new JwtSecurityTokenHandler();
 
                     var tokenDetails=TokenHandler.ReadToken(accessToken) as JwtSecurityToken;
@@ -87,7 +91,7 @@ namespace ePizza.UI.Controllers
         public IActionResult Logout()
         {
             HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
-
+            // we have to do remove token from cookies
             return RedirectToAction("Login", "Login");
         }
     }
