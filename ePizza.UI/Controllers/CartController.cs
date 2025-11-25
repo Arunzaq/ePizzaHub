@@ -3,7 +3,6 @@ using ePizza.UI.Models.ApiRequest;
 using ePizza.UI.Models.ApiResponses;
 using ePizza.UI.Models.ViewModel;
 using Microsoft.AspNetCore.Mvc;
-using System.Net.Http;
 using System.Text.Json;
 
 namespace ePizza.UI.Controllers
@@ -122,11 +121,11 @@ namespace ePizza.UI.Controllers
                                 CartId = CartId,
                                 UserId = CurrentUser.UserId,
                             };
-                    var response= await httpclient.PutAsJsonAsync($"/api/Cart/update-cart_user",updateUserRequest);
+                    var response= await httpclient.PutAsJsonAsync($"api/Cart/update-cart_user",updateUserRequest);
                     response.EnsureSuccessStatusCode();
 
-                    TempData.Add("Address", JsonSerializer.Serialize(addressViewModel));
-                    TempData.Add("CartId",JsonSerializer.Serialize(cart));
+                    TempData.Set("Address", addressViewModel);
+                    TempData.Set("CartId",cart.Data);
                 }
                 return RedirectToAction("Index" ,"Payment");
             }
