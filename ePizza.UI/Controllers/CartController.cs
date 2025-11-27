@@ -118,8 +118,8 @@ namespace ePizza.UI.Controllers
                     var updateUserRequest
                             = new
                             {
-                                CartId = CartId,
-                                UserId = CurrentUser.UserId,
+                                 CartId,
+                                 CurrentUser.UserId,
                             };
                     var response= await httpclient.PutAsJsonAsync($"api/Cart/update-cart_user",updateUserRequest);
                     response.EnsureSuccessStatusCode();

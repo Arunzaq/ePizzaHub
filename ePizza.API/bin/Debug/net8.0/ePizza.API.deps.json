@@ -683,7 +683,7 @@
         },
         "runtime": {
           "ePizza.Core.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -694,7 +694,7 @@
         },
         "runtime": {
           "ePizza.Domain.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -702,7 +702,7 @@
       "ePizza.Models/1.0.0": {
         "runtime": {
           "ePizza.Models.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -713,7 +713,7 @@
         },
         "runtime": {
           "ePizza.Repository.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }

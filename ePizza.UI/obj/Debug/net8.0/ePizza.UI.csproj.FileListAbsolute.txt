@@ -546,3 +546,4 @@ C:\Users\arunp\Documents\GitHub\ePizzaHub\ePizza.UI\obj\Debug\net8.0\refint\ePiz
 C:\Users\arunp\Documents\GitHub\ePizzaHub\ePizza.UI\obj\Debug\net8.0\ePizza.UI.pdb
 C:\Users\arunp\Documents\GitHub\ePizzaHub\ePizza.UI\obj\Debug\net8.0\ePizza.UI.genruntimeconfig.cache
 C:\Users\arunp\Documents\GitHub\ePizzaHub\ePizza.UI\obj\Debug\net8.0\ref\ePizza.UI.dll
+C:\Users\DELL\Documents\GitHub\ePizzaHub\ePizza.UI\bin\Debug\net8.0\RazorPay Core.dll

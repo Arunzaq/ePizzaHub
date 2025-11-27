@@ -49,8 +49,9 @@ namespace ePizza.API
             app.UseMiddleware<CommonResponseMiddlewares>();  // Registering this middleware
             app.UseHttpsRedirection();
 
-            app.UseAuthorization();
             app.UseAuthentication();
+            app.UseAuthorization();
+            
 
 
             app.MapControllers();
