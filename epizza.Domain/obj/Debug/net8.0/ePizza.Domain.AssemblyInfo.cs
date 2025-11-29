@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ePizza.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f92a89f1f767964f13c5168d3c2e19a899f7f56a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8bfafa88fbd0e607c9af96cd79b6b3792ceeafb7")]
 [assembly: System.Reflection.AssemblyProductAttribute("ePizza.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ePizza.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
