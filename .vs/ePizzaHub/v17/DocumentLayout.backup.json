@@ -5,6 +5,22 @@
     {
       "AbsoluteMoniker": "D:0:0:{5FC476AA-857E-4F79-97C7-2CB6D7418DBC}|ePizza.Core\\ePizza.Core.csproj|c:\\users\\arunp\\documents\\github\\epizzahub\\epizza.core\\concrete\\itemservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5FC476AA-857E-4F79-97C7-2CB6D7418DBC}|ePizza.Core\\ePizza.Core.csproj|solutionrelative:epizza.core\\concrete\\itemservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FC476AA-857E-4F79-97C7-2CB6D7418DBC}|ePizza.Core\\ePizza.Core.csproj|c:\\users\\arunp\\documents\\github\\epizzahub\\epizza.core\\contracts\\iitemservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FC476AA-857E-4F79-97C7-2CB6D7418DBC}|ePizza.Core\\ePizza.Core.csproj|solutionrelative:epizza.core\\contracts\\iitemservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6FDF016-E7DB-4BB0-B37E-D528748F3D4A}|ePizza.Repository\\ePizza.Repository.csproj|c:\\users\\arunp\\documents\\github\\epizzahub\\epizza.repository\\concrete\\itemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6FDF016-E7DB-4BB0-B37E-D528748F3D4A}|ePizza.Repository\\ePizza.Repository.csproj|solutionrelative:epizza.repository\\concrete\\itemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6FDF016-E7DB-4BB0-B37E-D528748F3D4A}|ePizza.Repository\\ePizza.Repository.csproj|c:\\users\\arunp\\documents\\github\\epizzahub\\epizza.repository\\contracts\\iitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6FDF016-E7DB-4BB0-B37E-D528748F3D4A}|ePizza.Repository\\ePizza.Repository.csproj|solutionrelative:epizza.repository\\contracts\\iitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAFA4783-A712-492D-BB46-EF9B1315E58E}|ePizza.API\\ePizza.API.csproj|c:\\users\\arunp\\documents\\github\\epizzahub\\epizza.api\\controllers\\itemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAFA4783-A712-492D-BB46-EF9B1315E58E}|ePizza.API\\ePizza.API.csproj|solutionrelative:epizza.api\\controllers\\itemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 242,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,13 +46,65 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IItemRepository.cs",
+              "DocumentMoniker": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.Repository\\Contracts\\IItemRepository.cs",
+              "RelativeDocumentMoniker": "ePizza.Repository\\Contracts\\IItemRepository.cs",
+              "ToolTip": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.Repository\\Contracts\\IItemRepository.cs",
+              "RelativeToolTip": "ePizza.Repository\\Contracts\\IItemRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T03:36:48.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ItemRepository.cs",
+              "DocumentMoniker": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.Repository\\Concrete\\ItemRepository.cs",
+              "RelativeDocumentMoniker": "ePizza.Repository\\Concrete\\ItemRepository.cs",
+              "ToolTip": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.Repository\\Concrete\\ItemRepository.cs",
+              "RelativeToolTip": "ePizza.Repository\\Concrete\\ItemRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T03:36:42.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IItemServices.cs",
+              "DocumentMoniker": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.Core\\Contracts\\IItemServices.cs",
+              "RelativeDocumentMoniker": "ePizza.Core\\Contracts\\IItemServices.cs",
+              "ToolTip": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.Core\\Contracts\\IItemServices.cs",
+              "RelativeToolTip": "ePizza.Core\\Contracts\\IItemServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T03:00:25.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ItemController.cs",
+              "DocumentMoniker": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.API\\Controllers\\ItemController.cs",
+              "RelativeDocumentMoniker": "ePizza.API\\Controllers\\ItemController.cs",
+              "ToolTip": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.API\\Controllers\\ItemController.cs",
+              "RelativeToolTip": "ePizza.API\\Controllers\\ItemController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAAAwAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T02:58:30.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "ItemServices.cs",
               "DocumentMoniker": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.Core\\Concrete\\ItemServices.cs",
               "RelativeDocumentMoniker": "ePizza.Core\\Concrete\\ItemServices.cs",
               "ToolTip": "C:\\Users\\arunp\\Documents\\GitHub\\ePizzaHub\\ePizza.Core\\Concrete\\ItemServices.cs",
               "RelativeToolTip": "ePizza.Core\\Concrete\\ItemServices.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAACgAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAADEAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-28T13:35:49.19Z",
               "EditorCaption": ""

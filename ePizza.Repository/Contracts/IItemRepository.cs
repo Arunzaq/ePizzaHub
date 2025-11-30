@@ -1,4 +1,5 @@
 ﻿using epizza.Domain.Models;
+using ePizza.Domain.StoredProcedures;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,5 +10,8 @@ namespace ePizza.Repository.Contracts
 {
     public interface IItemRepository :IGenericRepository<Item>
     {
+
+        List<GetOrderDetailsDTO> CallProcedure();
+
     }
 }

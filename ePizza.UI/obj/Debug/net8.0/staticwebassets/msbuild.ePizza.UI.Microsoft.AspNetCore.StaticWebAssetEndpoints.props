@@ -16,13 +16,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\ePizza.UI.1o3ntzcbom.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"1o3ntzcbom"},{"Name":"integrity","Value":"sha256-r2SSHJANOEPbG0OC5UlPqRLKhDunUzcifS1XsLBXPwA="},{"Name":"label","Value":"_content/ePizza.UI/ePizza.UI.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3404"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022r2SSHJANOEPbG0OC5UlPqRLKhDunUzcifS1XsLBXPwA=\u0022"},{"Name":"Last-Modified","Value":"Mon, 24 Nov 2025 03:05:54 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3404"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022r2SSHJANOEPbG0OC5UlPqRLKhDunUzcifS1XsLBXPwA=\u0022"},{"Name":"Last-Modified","Value":"Sat, 29 Nov 2025 19:08:58 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ePizza.UI/ePizza.UI.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\ePizza.UI.1o3ntzcbom.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-r2SSHJANOEPbG0OC5UlPqRLKhDunUzcifS1XsLBXPwA="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3404"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022r2SSHJANOEPbG0OC5UlPqRLKhDunUzcifS1XsLBXPwA=\u0022"},{"Name":"Last-Modified","Value":"Mon, 24 Nov 2025 03:05:54 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3404"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022r2SSHJANOEPbG0OC5UlPqRLKhDunUzcifS1XsLBXPwA=\u0022"},{"Name":"Last-Modified","Value":"Sat, 29 Nov 2025 19:08:58 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ePizza.UI/favicon.61n19gt1b8.ico">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</AssetFile>

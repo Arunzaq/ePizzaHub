@@ -10,5 +10,9 @@ namespace ePizza.Core.Contracts
     public interface IItemServices 
     {
         IEnumerable<ItemResponseModel> GetItems();
+
+        IEnumerable<ItemResponseModel> GetItemsUsingAdo();
+
+        IEnumerable<ItemResponseModel> GetItemsUsingProcedure();
     }
 }

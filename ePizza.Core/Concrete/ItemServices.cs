@@ -35,28 +35,37 @@ namespace ePizza.Core.Concrete
 
 
         /// Code with ADO.net
-        
-        //public IEnumerable<ItemResponseModel>GetItemsUsingAdo()
-        //{
-        //    List<ItemResponseModel> itemsList = new();
-        //    using SqlConnection sqlConnection = new SqlConnection();
-        //    sqlConnection.ConnectionString = _config.GetConnectionString("DatabaseConnection");
-        //    sqlConnection.Open();
 
-        //    SqlCommand sqlCommand = sqlConnection.CreateCommand();
-        //    sqlCommand.CommandText = "select * from Items";
-        //    SqlDataReader reader = sqlCommand.ExecuteReader();
+        public IEnumerable<ItemResponseModel> GetItemsUsingAdo()
+        {
+            List<ItemResponseModel> itemsList = new();
+            using SqlConnection sqlConnection = new SqlConnection();
+            sqlConnection.ConnectionString = _config.GetConnectionString("DatabaseConnection");
+            sqlConnection.Open();
 
-        //    while (reader.Read())
-        //    {
-        //        ItemResponseModel itemResponseModel =new ItemResponseModel();
+            SqlCommand sqlCommand = sqlConnection.CreateCommand();
+            sqlCommand.CommandText = "select * from Items";
+            SqlDataReader reader = sqlCommand.ExecuteReader();
 
-        //        itemResponseModel.ImageUrl = reader["ImageUrl"].ToString();
-        //        itemResponseModel.ItemTypeId = Convert.ToInt32(reader["ItemTypeId"]);
+            while (reader.Read())
+            {
+                ItemResponseModel itemResponseModel = new ItemResponseModel();
 
-        //        itemsList.Add( itemResponseModel );
-        //    }
-        //    return itemsList;
-        //}
+                itemResponseModel.ImageUrl = reader["ImageUrl"].ToString();
+                itemResponseModel.ItemTypeId = Convert.ToInt32(reader["ItemTypeId"]);
+                itemResponseModel.UnitPrice = Convert.ToDecimal(reader["UnitPrice"]);
+
+                itemsList.Add(itemResponseModel);
+            }
+            return itemsList;
+        }
+
+        public IEnumerable<ItemResponseModel> GetItemsUsingProcedure()
+        {
+            var items = _itemRepository.CallProcedure();
+
+            return new List<ItemResponseModel>();
+        }
+
     }
 }
