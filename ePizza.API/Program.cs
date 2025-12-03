@@ -11,6 +11,8 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
+using Serilog;
+using Serilog.Exceptions;
 using System.Text;
 
 namespace ePizza.API
@@ -20,6 +22,16 @@ namespace ePizza.API
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+
+            Serilog.Log.Logger = new LoggerConfiguration()
+                 .ReadFrom.Configuration(builder.Configuration)
+                  .Enrich.FromLogContext()
+                 .Enrich.WithMachineName()
+                    .Enrich.WithEnvironmentName()
+                 .Enrich.WithExceptionDetails()
+               .CreateLogger();
+
+            builder.Host.UseSerilog();
 
             // Add services to the container.
 
