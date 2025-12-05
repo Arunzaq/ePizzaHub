@@ -1,0 +1,3 @@
+2025-12-05 07:34:56.261 [LAPTOP-CVQ0CCQV|0HNHJMTMV8BMJ:00000006|ePizza.API.Controllers.AuthController] The Current Passed in Username is test@gmail.com
+2025-12-05 07:34:57.647 [LAPTOP-CVQ0CCQV|0HNHJMTMV8BMJ:00000006|ePizza.API.Controllers.AuthController] Token generated successfully
+2025-12-05 19:06:07.803 [LAPTOP-CVQ0CCQV|0HNHK30HASLT9:00000003|ePizza.API.Controllers.AuthController] The Current Passed in Username is test@gmail.com

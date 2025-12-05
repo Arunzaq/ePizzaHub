@@ -10,5 +10,7 @@ namespace ePizza.Repository.Contracts
     public interface IUserRepository : IGenericRepository<User>
     {
         User findUser(string emailAdress);
+        bool PersistUserTokens(UserToken userToken);
+        UserToken GetUserToken(int userId);
     }
 }

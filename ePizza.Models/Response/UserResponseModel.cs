@@ -21,6 +21,7 @@ namespace ePizza.Models.Response
         public bool EmailConfirmed { get; set; }
 
         public DateTime CreatedDate { get; set; }
+        public List<string> Roles { get; set; }
     }
 
     public class ValidateUserResponse

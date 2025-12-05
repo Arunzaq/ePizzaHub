@@ -61,6 +61,14 @@
       {
          "Name": "[dbo].[Users]",
          "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UserTokens]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[sp_GetOrderDetails]",
+         "ObjectType": 1
       }
    ],
    "UiHint": null,

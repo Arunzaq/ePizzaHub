@@ -21,6 +21,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "ePizza.API.Controllers.AuthController",
+    "Method": "Refresh",
+    "RelativePath": "api/Auth/token-refresh",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tokenModel",
+        "Type": "ePizza.Models.Response.RefreshTokenRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ePizza.API.Controllers.CartController",
     "Method": "AddItemToCart",
     "RelativePath": "api/Cart/add-item-to-cart",

@@ -10,5 +10,9 @@ namespace ePizza.Core.Contracts
     public interface IAuthServices
     {
         ValidateUserResponse validateUser(string username, string password);
+
+        bool PersistUserToken(UserTokenModel userTokenModel);
+        UserTokenModel GetSavedTokenDetail(string userName);
+        UserResponseModel GetUserDetails(string userName);
     }
 }
